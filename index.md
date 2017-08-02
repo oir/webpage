@@ -4,18 +4,22 @@ layout: default
 
 Hi. I am an NLP Research Scientist at [Bloomberg](https://www.techatbloomberg.com/post-topic/data-science/).
 
-Before that, I was a PhD student at [CS]() at [Cornell University](), advised by
-[Claire Cardie]().
+Before that, I was a PhD student at [CS](http://www.cs.cornell.edu) at
+[Cornell University](http://www.cornell.edu), advised by
+[Claire Cardie](http://www.cs.cornell.edu/home/cardie/).
 
-And before that, I was an undergrad at [Bogazici University](), pursuing my
-BS in [Computer Engineering]() and BA in [Math]().
+And before that, I was an undergrad at [Bogazici University](http://www.boun.edu.tr/en_US),
+ pursuing my
+BS in [Computer Engineering](https://cmpe.boun.edu.tr)
+ and BA in [Math](http://math.boun.edu.tr).
 
 My research interests lie primarily in the intersection of machine learning and natural
 language processing. Currently, I am particularly interested in representation learning and
 deep learning. My research has been focused on how to learn (possibly deep)
 representations for compositionality in language, with applications to sentiment analysis, opinion
 mining and question answering.
-I also regularly collaborate with my former (undergrad) advisor [Ethem Alpaydin]()
+I also regularly collaborate with my former (undergrad) advisor
+ [Ethem Alpaydin](https://www.cmpe.boun.edu.tr/~ethem/)
 on decision trees, neural networks, and some other ML stuff.
 
 # [](#header-1)Publications
