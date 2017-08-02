@@ -19,7 +19,7 @@ deep learning. My research has been focused on how to learn (possibly deep)
 representations for compositionality in language, with applications to sentiment analysis, opinion
 mining and question answering.
 I also regularly collaborate with my former (undergrad) advisor
- [Ethem Alpaydin](https://www.cmpe.boun.edu.tr/~ethem/)
+ [Ethem Alpaydın](https://www.cmpe.boun.edu.tr/~ethem/)
 on decision trees, neural networks, and some other ML stuff.
 
 # [](#header-1)Publications
