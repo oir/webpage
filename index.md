@@ -56,7 +56,7 @@ on decision trees, neural networks, and some other ML stuff.
    _H. Sak, A. Senior, K. Rao, O. İrsoy, A. Graves, F. Beaufays, J. Schalkwyk._  
    ICASSP 2015, Brisbane, Australia.
 
-- [Deep Recursive Neural Networks for Compositionality in Language.]()  
+- [Deep Recursive Neural Networks for Compositionality in Language.](papers/nips14drsv.pdf)  
    _O. İrsoy, C. Cardie._  
    NIPS 2014, Montreal, Quebec.
 
