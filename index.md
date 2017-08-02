@@ -30,7 +30,7 @@ on decision trees, neural networks, and some other ML stuff.
    _O İrsoy, E. Alpaydın._  
    Neurocomputing (2017), 258, 63-73.
 
-- [Physics-Inspired Neural Networks for Efficient Device Compact Modeling.]()  
+- [Physics-Inspired Neural Networks for Efficient Device Compact Modeling.](papers/piNN.pdf)  
    _M. Li, O. İrsoy, C. Cardie, H. G. Xing._  
    IEEE JXCDC (2016).
 
