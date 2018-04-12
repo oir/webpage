@@ -40,6 +40,10 @@ on decision trees, neural networks, and some other ML stuff.
 
 ## [](#header-2)Conference
 
+- [Collective Entity Disambiguation with Structured Gradient Tree Boosting.](https://arxiv.org/abs/1802.10229)  
+   _Y. Yang, O. İrsoy, K. S. Rahman._  
+   NAACL 2018, New Orleans, LA, to appear.
+
 - [Ask Me Anything: Dynamic Memory Networks for Natural Language Processing.](papers/kumar16.pdf)  
    _A. Kumar, O. İrsoy, P. Ondruska, M. Iyyer, J. Bradbury, I. Gulrajani, V. Zhong, R. Paulus, R. Socher._  
    ICML 2016, New York, New York.
