@@ -45,6 +45,10 @@ on decision trees, neural networks, and some other ML stuff.
 
 ## [](#header-2)Conference
 
+- [Convolutional Soft Decision Trees](https://www.cmpe.boun.edu.tr/~ethem/files/papers/Alper-icann18.pdf)  
+  _A. Ahmetoğlu, O. İrsoy, E. Alpaydın._  
+  ICANN 2018.
+
 - [Collective Entity Disambiguation with Structured Gradient Tree Boosting.](https://arxiv.org/abs/1802.10229)  
    _Y. Yang, O. İrsoy, K. S. Rahman._  
    NAACL 2018, New Orleans, LA.
