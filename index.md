@@ -17,7 +17,7 @@ My research interests lie primarily in the intersection of machine learning and 
 language processing. Currently, I am particularly interested in representation learning and
 deep learning. My research has been focused on how to learn (possibly deep)
 representations for compositionality in language, with applications to sentiment analysis, opinion
-mining and question answering.
+mining, question answering and dialogue understanding.
 I also regularly collaborate with my former (undergrad) advisor
  [Ethem Alpaydın](https://www.cmpe.boun.edu.tr/~ethem/)
 on decision trees, neural networks, and some other ML stuff.
