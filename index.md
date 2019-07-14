@@ -26,6 +26,11 @@ on decision trees, neural networks, and some other ML stuff.
 
 ## [](#header-2)Journal
 
+- [Continuously Constructive Deep Neural Networks](https://ieeexplore.ieee.org/document/8744488)  
+   _O İrsoy, E. Alpaydın._  
+   TNNLS (to appear).  
+   [preprint](https://arxiv.org/pdf/1804.02491)
+
 - [Unsupervised Feature Extraction with Autoencoder Trees.](papers/Ozan_Neurocomp.pdf)  
    _O İrsoy, E. Alpaydın._  
    Neurocomputing (2017), 258, 63-73.
@@ -42,7 +47,7 @@ on decision trees, neural networks, and some other ML stuff.
 
 - [Collective Entity Disambiguation with Structured Gradient Tree Boosting.](https://arxiv.org/abs/1802.10229)  
    _Y. Yang, O. İrsoy, K. S. Rahman._  
-   NAACL 2018, New Orleans, LA, to appear.
+   NAACL 2018, New Orleans, LA.
 
 - [Ask Me Anything: Dynamic Memory Networks for Natural Language Processing.](papers/kumar16.pdf)  
    _A. Kumar, O. İrsoy, P. Ondruska, M. Iyyer, J. Bradbury, I. Gulrajani, V. Zhong, R. Paulus, R. Socher._  
