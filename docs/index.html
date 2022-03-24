@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ozan</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="app"></div>
+    <script>
+      window.$docsify = {
+        name: "",
+        loadSidebar: true,
+        executeScript: true,
+        subMaxLevel: 1,
+        search: {
+          maxAge: 86400000, // Expiration time, the default one day
+          //maxAge: 1,
+          paths: "auto",
+          placeholder: "Type to search",
+          noData: "No Results!",
+          // Headline depth, 1 - 6
+          depth: 6,
+          hideOtherSidebarContent: false, // whether or not to hide other sidebar content
+          namespace: "oirgithubio",
+          pathNamespaces: "oirgithubio",
+        },
+      };
+    </script>
+    <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+
+    <script src="//unpkg.com/docsify/lib/plugins/external-script.min.js"></script>
+    <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+
+    <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/fontawesome.css" />
+    <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/brands.css" />
+    <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/regular.css" />
+    <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/solid.css" />
+    <script src="//unpkg.com/docsify-fontawesome/dist/docsify-fontawesome.min.js"></script>
+
+    <style>
+      :root {
+        --base-font-family: -apple-system, BlinkMacSystemFont,
+          "Helvetica Neue", "Segoe UI", Arial, sans-serif, "Apple Color Emoji",
+          "Segoe UI Emoji", "Segoe UI Symbol";
+        --base-font-size: 15px;
+        --base-font-weight: 350;
+        --sidebar-background: white;
+        --sidebar-font-size: 16px;
+        --sidebar-name-font-weight: 900;
+        --sidebar-name-color: black;
+        --sidebar-nav-link-margin: 0 0 0 0;
+        --heading-h1-font-weight: 900;
+        --heading-h2-font-weight: 900;
+        --code-font-family: "Fira Mono";
+        --code-font-weight: normal;
+      }
+      .paper-title {
+        padding-right:10px; 
+        display:inline-block;
+      }
+      .paper-authors {
+        font-style: italic;
+        padding-right:10px; 
+        display:inline-block;
+      }
+      .paper-venue {
+        font-weight: 500;
+        padding-right:10px; 
+        display:inline-block;
+      }
+      .sidebar-nav a {
+        display: inline-block;
+        text-decoration: underline;
+      }
+    </style>
+  </body>
+</html>
