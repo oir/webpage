@@ -118,3 +118,13 @@ My research interests lie primarily in the intersection of machine learning and 
 <span class="paper-title">   [Bidirectional Recursive Neural Networks for Token-Level Labeling with Structure](http://arxiv.org/abs/1312.0493)  </span>
 <span class="paper-authors"> O. İrsoy, C. Cardie                                                                                                </span>
 <span class="paper-venue">   NeurIPS Deep Learning Workshop, 2013, Lake Tahoe, Nevada                                                              </span>
+
+## Preprint
+
+<span class="paper-title">   [On Expected Accuracy](https://arxiv.org/abs/1905.00448) </span>
+<span class="paper-authors"> O. İrsoy                                                 </span>
+<span class="paper-venue">   arXiv:1905.00448                                         </span>
+
+<span class="paper-title">   [Distributed Decision Trees](https://arxiv.org/abs/1412.6388) </span>
+<span class="paper-authors"> O. İrsoy, E. Alpaydın                                         </span>
+<span class="paper-venue">   arXiv:1412.6388                                               </span>
