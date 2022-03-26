@@ -1,8 +1,8 @@
 
 <div style="height: 100%; display: flex; flex-direction: column; justify-content: space-between;">
 
-<div>
-<img src="ozi.jpg" alt="Ozi" width="180"/>
+<div style="line-height: 1.3;">
+<img src="ozi.jpg" alt="Ozi" width="180" style="display: inline-block;"/>
 
 <span style="font-size: 26px; font-weight: 900"> Ozan İrsoy </span>
 
@@ -25,5 +25,5 @@ New York NY, 10022
 </div>
 
 
-<span style="font-size: 64px; letter-spacing: -.5rem;"> 𝐖𝓍 </span>
+<span style="line-height: 1; font-size: 64px; letter-spacing: -.5rem;"> 𝐖𝓍 </span>
 </div>

@@ -78,29 +78,29 @@ My research interests lie primarily in the intersection of machine learning and 
 <span class="paper-title">   [Deep Recursive Neural Networks for Compositionality in Language](papers/nips14drsv.pdf)  </span>
 <span class="paper-authors"> O. İrsoy, C. Cardie                                                                        </span>
 <span class="paper-venue">   NeurIPS 2014, Montreal, Quebec                                                                </span>
-[:fas fa-github fa-lg:](https://github.com/oir/deep-recursive)
+[:fa fa-github lg:](https://github.com/oir/deep-recursive)
  
 <span class="paper-title">   [Opinion Mining with Deep Recurrent Neural Networks](papers/emnlp14drnt.pdf)  </span>
 <span class="paper-authors"> O. İrsoy, C. Cardie                                                            </span>
 <span class="paper-venue">   EMNLP 2014, Doha, Qatar                                                        </span>
-[:fas fa-github fa-lg:](https://github.com/oir/deep-recurrent)
+[:fa fa-github lg:](https://github.com/oir/deep-recurrent)
 
 <span class="paper-title">   [Budding Trees](papers/budding-icpr2014.pdf)  </span>
 <span class="paper-authors"> O. İrsoy, O.T. Yıldız, E. Alpaydın             </span>
 <span class="paper-venue">   ICPR 22, 2014, Stockholm, Sweden               </span>
-[:fas fa-github fa-lg:](https://github.com/oir/budding-tree)
+[:fa fa-github lg:](https://github.com/oir/budding-tree)
 
 <span class="paper-title">   [Soft Decision Trees](papers/icpr21.pdf)   </span>
 <span class="paper-authors"> O. İrsoy, O.T. Yıldız, E. Alpaydın         </span>
 <span class="paper-venue">   ICPR 21, 2012, Tsukuba, Japan              </span>
-[:fas fa-github fa-lg:](https://github.com/oir/soft-tree)
+[:fa fa-github lg:](https://github.com/oir/soft-tree)
 
 ## Workshop
 
 <span class="paper-title">   [Corrected CBOW Performs as well as Skip-gram](https://aclanthology.org/2021.insights-1.1.pdf) </span>
 <span class="paper-authors"> O İrsoy, A Benton, K Stratos </span>
 <span class="paper-venue">   Workshop on Insights from Negative Results in NLP, 2021 </span>
-[:fas fa-github fa-lg:](https://github.com/bloomberg/koan)
+[:fa fa-github lg:](https://github.com/bloomberg/koan)
 
 <span class="paper-title">   [Dialogue Act Classification in Group Chats with DAG-LSTMs](https://arxiv.org/abs/1908.01821)    </span>
 <span class="paper-authors"> O. İrsoy, R. Gosangi, H. Zhang, M. Wei, P. Lund, D. Pappadopulo, B. Fahy, N. Neophytou, C. Ortiz </span>
