@@ -67,7 +67,7 @@ My research interests lie primarily in the intersection of machine learning and 
 <span class="paper-authors"> O. İrsoy, E. Alpaydın                           </span>
 <span class="paper-venue">   ACML 2015, Hong Kong                            </span>
  
-<span class="paper-title">   [Modeling Compositionality with Multiplicative RecurrentNeural Networks](http://arxiv.org/abs/1412.6577)  </span>
+<span class="paper-title">   [Modeling Compositionality with Multiplicative Recurrent Neural Networks](http://arxiv.org/abs/1412.6577)  </span>
 <span class="paper-authors"> O. İrsoy, C. Cardie                                                                                        </span>
 <span class="paper-venue">   ICLR 2015, San Diego, California                                                                           </span>
  
@@ -128,3 +128,4 @@ My research interests lie primarily in the intersection of machine learning and 
 <span class="paper-title">   [Distributed Decision Trees](https://arxiv.org/abs/1412.6388) </span>
 <span class="paper-authors"> O. İrsoy, E. Alpaydın                                         </span>
 <span class="paper-venue">   arXiv:1412.6388                                               </span>
+
