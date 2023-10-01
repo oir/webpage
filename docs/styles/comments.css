@@ -98,3 +98,16 @@ main .gsc-loading-image {
 .gsc-comment:not(.gsc-reply-box) .gsc-replies {
   border-radius: unset;
 }
+
+main {
+  font-family: "Helvetica Neue", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
+          "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+/* for code */
+code,
+kbd,
+pre,
+samp {
+  font-family: "Fira Mono", monospace;
+}
