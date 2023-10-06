@@ -2,26 +2,35 @@
 <div style="height: 100%; display: flex; flex-direction: column; justify-content: space-between;">
 
 <div style="line-height: 1.3;">
+<a href="/">
 <img src="ozi.jpg" alt="Ozi" width="180" style="display: inline-block;"/>
+</a>
 
-<span style="font-size: 26px; font-weight: 900"> Ozan İrsoy </span>
 
+<a href="#/" class="top-title" title="Ozan">
+<span style="letter-spacing: -0.04em; font-size: 32px; font-weight: 600; margin-right: 5px;">
+Ozan İrsoy
+</span>
+</a>
+
+
+<p style="line-height: 1.7em; margin-bottom: 40px">
 oirsoy
 <i class="fa fa-at fw"></i>
 bloomberg
 <i class="fa fa-circle fw"></i>
-net
+net<br/>
+Bloomberg (New York) 
+</p>
 
-Bloomberg LP  
-919 3rd Ave  
-New York NY, 10022
-
+[blog](/blog/)<br/>
 [scholar](https://scholar.google.com/citations?user=sm7-kIwAAAAJ)
 [github](https://github.com/oir/)
-
+<br>
 [kōan](https://github.com/bloomberg/koan)
 [tblr](https://github.com/oir/tblr)
 [meanwhile](https://github.com/oir/meanwhile)
+
 </div>
 
 
