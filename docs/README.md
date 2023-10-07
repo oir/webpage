@@ -129,3 +129,44 @@ My research interests lie primarily in the intersection of machine learning and 
 <span class="paper-authors"> O. İrsoy, E. Alpaydın                                         </span>
 <span class="paper-venue">   arXiv:1412.6388                                               </span>
 
+<script>
+fetch("papers.yaml")
+  .then((res) => res.text())
+  .then((text) => {
+      console.log(text)
+      const dat = jsyaml.load(text)
+      console.log(dat)
+      console.log(dat["Journals"][0]["authors"])
+
+      const para = document.createElement("p");
+      const node = document.createTextNode("This is new.");
+      para.appendChild(node);
+
+      const main = document.getElementById("main");
+      main.appendChild(para)
+   })
+  .catch((e) => console.error(e));
+          //const fr = new FileReader();
+          //const doc = jsyaml.load(fr.readAsText("/example.yaml"));
+          //console.log(doc);
+
+  Vue.createApp({
+    // Options...
+      data() {
+        return {
+          papers: null,
+        };
+      },
+      created() {
+fetch("papers.yaml")
+  .then((res) => res.text())
+  .then((text) => {
+      console.log(text)
+      this.papers = jsyaml.load(text)
+   })
+  .catch((e) => console.error(e));
+      }
+  }).mount('#main');
+</script>
+
+{{ papers ? papers["Journals"][0]["authors"] : "" }}
