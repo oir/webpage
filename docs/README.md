@@ -119,37 +119,7 @@ My research interests lie primarily in the intersection of machine learning and 
 <span class="paper-authors"> O. İrsoy, C. Cardie                                                                                                </span>
 <span class="paper-venue">   NeurIPS Deep Learning Workshop, 2013, Lake Tahoe, Nevada                                                              </span>
 
-## Preprint
-
-<span class="paper-title">   [On Expected Accuracy](https://arxiv.org/abs/1905.00448) </span>
-<span class="paper-authors"> O. İrsoy                                                 </span>
-<span class="paper-venue">   arXiv:1905.00448                                         </span>
-
-<span class="paper-title">   [Distributed Decision Trees](https://arxiv.org/abs/1412.6388) </span>
-<span class="paper-authors"> O. İrsoy, E. Alpaydın                                         </span>
-<span class="paper-venue">   arXiv:1412.6388                                               </span>
-
 <script>
-fetch("papers.yaml")
-  .then((res) => res.text())
-  .then((text) => {
-      console.log(text)
-      const dat = jsyaml.load(text)
-      console.log(dat)
-      console.log(dat["Journals"][0]["authors"])
-
-      const para = document.createElement("p");
-      const node = document.createTextNode("This is new.");
-      para.appendChild(node);
-
-      const main = document.getElementById("main");
-      main.appendChild(para)
-   })
-  .catch((e) => console.error(e));
-          //const fr = new FileReader();
-          //const doc = jsyaml.load(fr.readAsText("/example.yaml"));
-          //console.log(doc);
-
   Vue.createApp({
     // Options...
       data() {
@@ -158,15 +128,47 @@ fetch("papers.yaml")
         };
       },
       created() {
-fetch("papers.yaml")
-  .then((res) => res.text())
-  .then((text) => {
-      console.log(text)
-      this.papers = jsyaml.load(text)
-   })
-  .catch((e) => console.error(e));
+        fetch("papers.yaml")
+          .then((res) => res.text())
+          .then((text) => {
+              this.papers = jsyaml.load(text)
+          })
+          .catch((e) => console.error(e));
       }
   }).mount('#main');
 </script>
 
-{{ papers ? papers["Journals"][0]["authors"] : "" }}
+---
+
+<div v-if="papers">
+  <p v-for="paper in papers['Workshop']">
+    <span class="paper-title">
+      <a :href="paper['link']" target="_blank" rel="noopener"> {{ paper['title'] }} </a>
+    </span>
+    <span class="paper-authors"> {{ paper["authors"] }} </span>
+    <span v-if="typeof paper['venue'] === 'string'" class="paper-venue"> {{ paper["venue"] }} </span>
+    <span v-if="Array.isArray(paper['venue'])">
+      <span class="paper-venue" v-for="venue in paper['venue']"> {{ venue }} </span>
+    </span>
+    <span v-if="'repo' in paper">
+      <a :href="paper['repo']" target="_blank" rel="noopener">
+        <i class="fa fa-github lg"></i>
+      </a>
+    </span>
+  </p>
+</div>
+
+
+
+## Preprint
+
+<div v-if="papers">
+  <p v-for="paper in papers['Preprint']">
+    <span class="paper-title">
+    <a :href="paper['link']"> {{ paper['title'] }} </a>
+    </span>
+    <span class="paper-authors"> {{ paper["authors"] }} </span>
+    <span class="paper-venue"> {{ paper["venue"] }} </span>
+  </p>
+</div>
+

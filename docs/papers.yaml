@@ -1,3 +1,41 @@
-Journals:
-  - authors: ozan, ethem
-    venue: somewhere 2023
+Workshop:
+  - title:    Corrected CBOW Performs as well as Skip-gram
+    link:     https://aclanthology.org/2021.insights-1.1.pdf
+    authors:  O İrsoy, A Benton, K Stratos
+    venue:    Workshop on Insights from Negative Results in NLP, 2021
+    repo:     https://github.com/bloomberg/koan
+
+  - title:    Dialogue Act Classification in Group Chats with DAG-LSTMs
+    link:     https://arxiv.org/abs/1908.01821
+    authors:  O. İrsoy, R. Gosangi, H. Zhang, M. Wei, P. Lund, D. Pappadopulo, B. Fahy, N. Neophytou, C. Ortiz
+    venue:    SIGIR 2019 Workshop on Conversational Interaction Systems
+
+  - title:    "Ask Me Anything: Dynamic Memory Networks for Natural Language Processing"
+    link:     http://arxiv.org/abs/1506.07285
+    authors:  A. Kumar, O. İrsoy, P. Ondruska, M. Iyyer, J. Bradbury, I. Gulrajani, R. Socher
+    venue:
+      - NeurIPS Deep Learning Symposium, 2015, Montreal, Quebec
+      - NeurIPS Workshop on Reasoning, Attention and Memory, 2015, Montreal, Quebec
+
+  - title:    Autoencoder Trees
+    link:     http://arxiv.org/abs/1409.7461
+    authors:  O. İrsoy, E. Alpaydın
+    venue:    NeurIPS Deep Learning Workshop, 2014, Montreal, Quebec
+
+  - title:    Bidirectional Recursive Neural Networks for Token-Level Labeling with Structure
+    link:     http://arxiv.org/abs/1312.0493
+    authors:  O. İrsoy, C. Cardie
+    venue:    NeurIPS Deep Learning Workshop, 2013, Lake Tahoe, Nevada
+
+
+
+Preprint:
+  - title:   On Expected Accuracy
+    link:    https://arxiv.org/abs/1905.00448
+    authors: O. İrsoy
+    venue:   arXiv:1905.00448
+
+  - title:   Distributed Decision Trees
+    link:    https://arxiv.org/abs/1412.6388
+    authors: O. İrsoy, E. Alpaydın 
+    venue:   arXiv:1412.6388
