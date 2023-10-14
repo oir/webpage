@@ -10,6 +10,7 @@ Each level is a 2- (but actually 3-) dimensional grid where you push around saus
 The goal is to cook them without burning them.
 
 It extends typical sokoban mechanics with additional elements:
+
 - Your character now occupies 2x1 space with the fork you're holding, instead of 1x1.
   This makes how you rotate and orient impactful.
 - Sausages are also 2x1.
@@ -18,7 +19,7 @@ It extends typical sokoban mechanics with additional elements:
 - Height adds a dimension where objects can be placed on top of one another or on top of you.
 - Your fork can be used to stab and pull.
 
-[Trailer](https://www.youtube.com/embed/lCNqYLGwqxU ':include :type=iframe class=video frameborder=0 allowfullscreen')
+[Trailer](https://www.youtube.com/embed/lCNqYLGwqxU ":include :type=iframe class=video frameborder=0 allowfullscreen")
 
 The game does a great job of dropping you right in with zero hand-holding, not even telling you what the goal is.
 What's great about it is that at the start the ways in which you can interact with the levels and the game are limited enough that you can experiment and discover victory and failure conditions yourself with no guidance.
@@ -29,6 +30,7 @@ It's just that the earlier level designs don't give you any opportunity to execu
 
 Puzzle design is also great.
 At the start of the game I was very overwhelmed:
+
 - "I need to rotate but my fork pushes things if I do."
 - "Wait, I can't even step on the grill."
 - "I have to cook both sides?"
@@ -42,10 +44,10 @@ Even some of the more wider levels have these constrain bottlenecks sprinkled ac
 Simplistic but very fun, great little puzzle game!
 
 Some random final remarks:
+
 - IIRC, some puzzles <span class="spoiler">had red herrings! If you think "well, how do I use this part of the level" towards a solution,</span> be careful 🤣.
 - I found some of the behavior a bit unintuitive when sausages are on top of you. But puzzles that require you to use such mechanics make use of the more intuitive subset.
 - Levels that require <span class="spoiler">you to drop your fork</span> can be difficult!
-
 
 <div class="comments-div">
 <giscus-widget
@@ -64,4 +66,3 @@ Some random final remarks:
   loading="lazy"
 />
 </div>
-

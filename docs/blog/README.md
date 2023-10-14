@@ -9,11 +9,9 @@ Nothing seems to be here yet...
 I play a lot of adventure and puzzle games.
 I thought I might as well write my thoughts on them.
 
-|      |      |
-| ---- | ---- |
-| Oct 5, 2023  | [Stephen's Sausage Roll](blog/sausage.md) |
-
-
+|             |                                           |
+| ----------- | ----------------------------------------- |
+| Oct 5, 2023 | [Stephen's Sausage Roll](blog/sausage.md) |
 
 <style>
 # hide empty headers in tables
