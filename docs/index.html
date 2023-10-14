@@ -81,6 +81,8 @@
         --heading-h2-font-size: 32px;
         --code-font-family: "Fira Mono";
         --code-font-weight: normal;
+        --notice-important-border-width: 0;
+        --notice-padding: 0.1em 0.5em 0.1em 2em;
       }
       .markdown-section h1,h2 {
         letter-spacing: -0.04em;
@@ -133,6 +135,37 @@
         margin: auto;
         width: 100%;
         aspect-ratio: 16/9;
+      }
+      .spoiler {
+          color: var(--base-color);
+          background: var(--base-color);
+          transition-duration: 0.5s;
+          border-radius: 2px;
+      }
+      .spoiler:hover {
+          color: inherit;
+          background: inherit;
+          transition-duration: 0.5s;
+      }
+      .icon::before {
+        display: inline-block;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+      }
+      .markdown-section .tip {
+        margin: 0;
+        display: inline-block;
+        background-color: rgb(240, 240, 240);
+        border-radius: 3px;
+      }
+      .markdown-section .tip::before {
+        font-family: FontAwesome;
+        font-weight: 400;
+        color: var(--base-color);
+        content: "\f071";
+        background: inherit;
+        left: 0;
+        border-radius: 3px;
       }
     </style>
   </body>

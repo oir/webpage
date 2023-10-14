@@ -3,7 +3,7 @@
 <span class="date">Oct 5, 2023</span>
 <span class="tags">[#games](/blog/#games)</span>
 
-_\<Mild spoilers about game mechanics.\>_
+!> _\<Mild spoilers about game mechanics.\>_
 
 Stephen's Sausage Roll is a sokoban style puzzle game.
 Each level is a 2- (but actually 3-) dimensional grid where you push around sausages.
@@ -42,9 +42,9 @@ Even some of the more wider levels have these constrain bottlenecks sprinkled ac
 Simplistic but very fun, great little puzzle game!
 
 Some random final remarks:
-- IIRC, some puzzles had red herrings! If you think "well, how do I use this part of the level" towards a solution, be careful 🤣.
+- IIRC, some puzzles <span class="spoiler">had red herrings! If you think "well, how do I use this part of the level" towards a solution,</span> be careful 🤣.
 - I found some of the behavior a bit unintuitive when sausages are on top of you. But puzzles that require you to use such mechanics make use of the more intuitive subset.
-- Levels that require you to drop your fork can be difficult!
+- Levels that require <span class="spoiler">you to drop your fork</span> can be difficult!
 
 
 <div class="comments-div">
