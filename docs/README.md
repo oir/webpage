@@ -1,4 +1,3 @@
-
 Hi. I am an AI Research Scientist at [Bloomberg](https://www.bloomberg.com/company/stories/tag/data-science/).
 
 Before that, I was a PhD student at [CS](http://www.cs.cornell.edu/) at [Cornell University](http://www.cornell.edu/), advised by [Claire Cardie](http://www.cs.cornell.edu/home/cardie/).
