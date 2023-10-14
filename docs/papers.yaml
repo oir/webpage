@@ -28,6 +28,12 @@ Journal:
 
 
 Conference:
+  - title:    "MixCE: Training Autoregressive Language Models by Mixing Forward and Reverse Cross-Entropies"
+    link:     https://aclanthology.org/2023.acl-long.502.pdf
+    authors:  S. Zhang, S. Wu, O. İrsoy, S. Lu, M. Bansal, M. Dredze, D. Rosenberg
+    venue:    ACL 2023
+    preprint: https://arxiv.org/abs/2305.16958
+
   - title:    Disentangling Online Chats with DAG-structured LSTMs
     link:     https://aclanthology.org/2021.starsem-1.14/
     authors:  D. Pappadopulo, L. Bauer, M. Farina, O. İrsoy, M. Bansal
@@ -104,6 +110,21 @@ Conference:
 
 
 Workshop:
+  - title:   Distillation of encoder-decoder transformers for sequence labelling
+    link:    https://arxiv.org/abs/2302.05454
+    authors: M. Farina, D. Pappadopulo, A. Gupta, L. Huang, O. İrsoy, T. Solorio
+    venue:   Findings of EACL 2023
+
+  - title:   Weakly Supervised Headline Dependency Parsing
+    link:    https://arxiv.org/abs/2301.10371
+    authors: A. Benton, T. Shi, O. İrsoy, I. Malioutov
+    venue:   Findings of EMNLP 2022
+
+  - title:   Distributed Decision Trees
+    link:    https://arxiv.org/abs/1412.6388
+    authors: O. İrsoy, E. Alpaydın
+    venue:   S+SSPR 2022
+
   - title:    Corrected CBOW Performs as well as Skip-gram
     link:     https://aclanthology.org/2021.insights-1.1.pdf
     authors:  O. İrsoy, A. Benton, K. Stratos
@@ -134,12 +155,18 @@ Workshop:
 
 
 Preprint:
+  - title:   "BloombergGPT: A Large Language Model for Finance"
+    link:    https://arxiv.org/abs/2303.17564
+    authors: S. Wu, O. İrsoy, S. Lu, V. Dabravolski, M. Dredze, S. Gehrmann, P. Kambadur, D. Rosenberg, G. Mann
+    venue:   arXiv:2303.17564, 2023
+
+  - title:   "PathFinder: Discovering Decision Pathways in Deep Neural Networks"
+    link:    https://arxiv.org/abs/2210.00319
+    authors: O. İrsoy, E. Alpaydın
+    venue:   arXiv:2210.00319, 2022
+
   - title:   On Expected Accuracy
     link:    https://arxiv.org/abs/1905.00448
     authors: O. İrsoy
-    venue:   arXiv:1905.00448
+    venue:   arXiv:1905.00448, 2019
 
-  - title:   Distributed Decision Trees
-    link:    https://arxiv.org/abs/1412.6388
-    authors: O. İrsoy, E. Alpaydın
-    venue:   arXiv:1412.6388
