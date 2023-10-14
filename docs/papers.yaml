@@ -31,7 +31,7 @@ Conference:
   - title:    "MixCE: Training Autoregressive Language Models by Mixing Forward and Reverse Cross-Entropies"
     link:     https://aclanthology.org/2023.acl-long.502.pdf
     authors:  S. Zhang, S. Wu, O. İrsoy, S. Lu, M. Bansal, M. Dredze, D. Rosenberg
-    venue:    ACL 2023
+    venue:    ACL 2023, Toronto, Ontario
     preprint: https://arxiv.org/abs/2305.16958
 
   - title:    Disentangling Online Chats with DAG-structured LSTMs
