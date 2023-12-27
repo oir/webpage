@@ -49,20 +49,20 @@ Some random final remarks:
 - I found some of the behavior a bit unintuitive when sausages are on top of you. But puzzles that require you to use such mechanics make use of the more intuitive subset.
 - Levels that require <span class="spoiler">you to drop your fork</span> can be difficult!
 
-<script src="https://giscus.app/client.js"
-        data-id="/blog/sausage"
-        data-repo="oir/webpage"
-        data-repo-id="MDEwOlJlcG9zaXRvcnk5Nzk5Nzc3Ng=="
-        data-category="Blog comments"
-        data-category-id="DIC_kwDOBddT0M4CZwjU"
-        data-mapping="specific"
-        data-term="Stephen's Sausage Roll"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="https://wtimesx.com/styles/comments.css"
-        data-lang="en"
-        crossorigin="anonymous"
-        async>
-</script>
+<div class="comments-div">
+<giscus-widget
+  id="/blog/sausage"
+  repo="oir/webpage"
+  repoid="MDEwOlJlcG9zaXRvcnk5Nzk5Nzc3Ng=="
+  category="Blog comments"
+  categoryid="DIC_kwDOBddT0M4CZwjU"
+  mapping="specific"
+  term="Stephen's Sausage Roll"
+  reactionsenabled="1"
+  emitmetadata="0"
+  inputposition="bottom"
+  theme="https://wtimesx.com/styles/comments.css"
+  lang="en"
+  loading="lazy"
+/>
+</div>
