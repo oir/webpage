@@ -20,7 +20,6 @@ net<br/>
 Bloomberg (New York) 
 </p>
 
-[blog](/blog/)<br/>
 [scholar](https://scholar.google.com/citations?user=sm7-kIwAAAAJ)
 [github](https://github.com/oir/)
 <br>
