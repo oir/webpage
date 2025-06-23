@@ -1,172 +1,180 @@
-Journal:
-  - title:    Dropout regularization in hierarchical mixture of experts
-    link:     https://www.sciencedirect.com/science/article/abs/pii/S0925231220313321
-    authors:  O. İrsoy, E. Alpaydın
-    venue:    Neurocomputing (2021) 419, 148-156
-    preprint: https://arxiv.org/pdf/1812.10158
+- title:   "Improving Instruct Models for Free: A Study on Partial Adaptation"
+  link:    https://arxiv.org/abs/2504.11626
+  authors: O. İrsoy, P. Cheng, J. L. Chen, D. Preoţiuc-Pietro, S. Zhang, D. Pappadopulo
+  venue:   arXiv:2504.11626, 2025
 
-  - title:    Continuously Constructive Deep Neural Networks
-    link:     https://ieeexplore.ieee.org/document/8744488
-    authors:  O. İrsoy, E. Alpaydın
-    venue:    IEEE Transactions on Neural Networks and Learning Systems, 31(4), 1124-1133
-    preprint: https://arxiv.org/pdf/1804.02491
+- title:   "M3DocRAG: Multi-modal Retrieval is What You Need for Multi-page Multi-document Understanding"
+  link:    https://arxiv.org/abs/2411.04952
+  authors: J. Cho, D. Mahata, O. İrsoy, Y. He, M. Bansal
+  venue:   arXiv:2411.04952, 2024
 
-  - title:    Unsupervised Feature Extraction with Autoencoder Trees
-    link:     papers/Ozan_Neurocomp.pdf
-    authors:  O. İrsoy, E. Alpaydın
-    venue:    Neurocomputing (2017), 258, 63-73
+- title:   Academics Can Contribute to Domain-Specialized Language Models
+  link:    https://aclanthology.org/2024.emnlp-main.293.pdf
+  authors: M. Dredze, G. I. Winata, P. Kambadur, S. Wu, O. İrsoy, S. Lu, V. Dabravolski, D. S. Rosenberg, S. Gehrmann
+  venue:   EMNLP 2024, Miami, Florida
 
-  - title:    Physics-Inspired Neural Networks for Efficient Device Compact Modeling
-    link:     papers/piNN.pdf
-    authors:  M. Li, O. İrsoy, C. Cardie, H. G. Xing
-    venue:    IEEE Journal on Exploratory Solid-State Computational Devices and Circuits (2016), 2, 44-49
+- title:    "MixCE: Training Autoregressive Language Models by Mixing Forward and Reverse Cross-Entropies"
+  link:     https://aclanthology.org/2023.acl-long.502.pdf
+  authors:  S. Zhang, S. Wu, O. İrsoy, S. Lu, M. Bansal, M. Dredze, D. Rosenberg
+  venue:    ACL 2023, Toronto, Ontario
+  preprint: https://arxiv.org/abs/2305.16958
 
-  - title:    "Design and Analysis of Classifier Learning Experiments in Bioinformatics: Survey and Case Studies"
-    link:     papers/ieee-tcbb.pdf
-    authors:  O. İrsoy, O. T. Yıldız, E. Alpaydın
-    venue:    IEEE/ACM TCBB (2012), 9(6), 1663-1675
+- title:   Distillation of encoder-decoder transformers for sequence labelling
+  link:    https://arxiv.org/abs/2302.05454
+  authors: M. Farina, D. Pappadopulo, A. Gupta, L. Huang, O. İrsoy, T. Solorio
+  venue:   Findings of EACL 2023
 
+- title:   "BloombergGPT: A Large Language Model for Finance"
+  link:    https://arxiv.org/abs/2303.17564
+  authors: S. Wu, O. İrsoy, S. Lu, V. Dabravolski, M. Dredze, S. Gehrmann, P. Kambadur, D. Rosenberg, G. Mann
+  venue:   arXiv:2303.17564, 2023
 
-Conference:
-  - title:    "MixCE: Training Autoregressive Language Models by Mixing Forward and Reverse Cross-Entropies"
-    link:     https://aclanthology.org/2023.acl-long.502.pdf
-    authors:  S. Zhang, S. Wu, O. İrsoy, S. Lu, M. Bansal, M. Dredze, D. Rosenberg
-    venue:    ACL 2023, Toronto, Ontario
-    preprint: https://arxiv.org/abs/2305.16958
+- title:   Weakly Supervised Headline Dependency Parsing
+  link:    https://arxiv.org/abs/2301.10371
+  authors: A. Benton, T. Shi, O. İrsoy, I. Malioutov
+  venue:   Findings of EMNLP 2022
 
-  - title:    Disentangling Online Chats with DAG-structured LSTMs
-    link:     https://aclanthology.org/2021.starsem-1.14/
-    authors:  D. Pappadopulo, L. Bauer, M. Farina, O. İrsoy, M. Bansal
-    venue:    "*SEM 2021, Online"
+- title:   Distributed Decision Trees
+  link:    https://arxiv.org/abs/1412.6388
+  authors: O. İrsoy, E. Alpaydın
+  venue:   S+SSPR 2022
 
-  - title:    Learning Syntax from Naturally-Occurring Bracketings
-    link:     https://aclanthology.org/2021.naacl-main.234/
-    authors:  T. Shi, O. İrsoy, I. Malioutov, L. Lee
-    venue:    NAACL 2021, Online
+- title:   "PathFinder: Discovering Decision Pathways in Deep Neural Networks"
+  link:    https://arxiv.org/abs/2210.00319
+  authors: O. İrsoy, E. Alpaydın
+  venue:   arXiv:2210.00319, 2022
 
-  - title:    Diversity-Aware Batch Active Learning for Dependency Parsing
-    link:     https://aclanthology.org/2021.naacl-main.207/
-    authors:  T. Shi, A. Benton, I. Malioutov, O. İrsoy
-    venue:    NAACL 2021, Online
+- title:    Corrected CBOW Performs as well as Skip-gram
+  link:     https://aclanthology.org/2021.insights-1.1.pdf
+  authors:  O. İrsoy, A. Benton, K. Stratos
+  venue:    Workshop on Insights from Negative Results in NLP, 2021
+  repo:     https://github.com/bloomberg/koan
 
-  - title:    Semantic Role Labeling as Syntactic Dependency Parsing
-    link:     https://aclanthology.org/2020.emnlp-main.610/
-    authors:  T. Shi, I. Malioutov, O. İrsoy
-    venue:    EMNLP 2020, Online
+- title:    Disentangling Online Chats with DAG-structured LSTMs
+  link:     https://aclanthology.org/2021.starsem-1.14/
+  authors:  D. Pappadopulo, L. Bauer, M. Farina, O. İrsoy, M. Bansal
+  venue:    "*SEM 2021, Online"
 
-  - title:    Convolutional Soft Decision Trees
-    link:     https://www.cmpe.boun.edu.tr/~ethem/files/papers/Alper-icann18.pdf
-    authors:  A. Ahmetoğlu, O. İrsoy, E. Alpaydın
-    venue:    ICANN 2018, Rhodes, Greece
+- title:    Learning Syntax from Naturally-Occurring Bracketings
+  link:     https://aclanthology.org/2021.naacl-main.234/
+  authors:  T. Shi, O. İrsoy, I. Malioutov, L. Lee
+  venue:    NAACL 2021, Online
 
-  - title:    Collective Entity Disambiguation with Structured Gradient Tree Boosting
-    link:     https://arxiv.org/abs/1802.10229
-    authors:  Y. Yang, O. İrsoy, K. S. Rahman
-    venue:    NAACL 2018, New Orleans, LA
+- title:    Diversity-Aware Batch Active Learning for Dependency Parsing
+  link:     https://aclanthology.org/2021.naacl-main.207/
+  authors:  T. Shi, A. Benton, I. Malioutov, O. İrsoy
+  venue:    NAACL 2021, Online
 
-  - title:    "Ask Me Anything: Dynamic Memory Networks for Natural Language Processing"
-    link:     papers/kumar16.pdf
-    authors:  A. Kumar, O. İrsoy, P. Ondruska, M. Iyyer, J. Bradbury, I. Gulrajani, V. Zhong, R. Paulus, R. Socher
-    venue:    ICML 2016, New York, New York
+- title:    Dropout regularization in hierarchical mixture of experts
+  link:     https://www.sciencedirect.com/science/article/abs/pii/S0925231220313321
+  authors:  O. İrsoy, E. Alpaydın
+  venue:    Neurocomputing (2021) 419, 148-156
+  preprint: https://arxiv.org/pdf/1812.10158
 
-  - title:    Autoencoder Trees
-    link:     papers/AiP25_Paper36.pdf
-    authors:  O. İrsoy, E. Alpaydın
-    venue:    ACML 2015, Hong Kong
+- title:    Semantic Role Labeling as Syntactic Dependency Parsing
+  link:     https://aclanthology.org/2020.emnlp-main.610/
+  authors:  T. Shi, I. Malioutov, O. İrsoy
+  venue:    EMNLP 2020, Online
 
-  - title:    Modeling Compositionality with Multiplicative Recurrent Neural Networks
-    link:     http://arxiv.org/abs/1412.6577
-    authors:  O. İrsoy, C. Cardie
-    venue:    ICLR 2015, San Diego, California
+- title:    Continuously Constructive Deep Neural Networks
+  link:     https://ieeexplore.ieee.org/document/8744488
+  authors:  O. İrsoy, E. Alpaydın
+  venue:    IEEE Transactions on Neural Networks and Learning Systems, 31(4), 1124-1133
+  preprint: https://arxiv.org/pdf/1804.02491
 
-  - title:    Learning Acoustic Frame Labeling for Speech Recognition with Recurrent Neural Networks
-    link:     papers/icassp15.pdf
-    authors:  H. Sak, A. Senior, K. Rao, O. İrsoy, A. Graves, F. Beaufays, J. Schalkwyk
-    venue:    ICASSP 2015, Brisbane, Australia
+- title:   On Expected Accuracy
+  link:    https://arxiv.org/abs/1905.00448
+  authors: O. İrsoy
+  venue:   arXiv:1905.00448, 2019
 
-  - title:    Deep Recursive Neural Networks for Compositionality in Language
-    link:     papers/nips14drsv.pdf
-    authors:  O. İrsoy, C. Cardie
-    venue:    NeurIPS 2014, Montreal, Quebec
-    repo:     https://github.com/oir/deep-recursive
+- title:    Dialogue Act Classification in Group Chats with DAG-LSTMs
+  link:     https://arxiv.org/abs/1908.01821
+  authors:  O. İrsoy, R. Gosangi, H. Zhang, M. Wei, P. Lund, D. Pappadopulo, B. Fahy, N. Neophytou, C. Ortiz
+  venue:    SIGIR 2019 Workshop on Conversational Interaction Systems
 
-  - title:    Opinion Mining with Deep Recurrent Neural Networks
-    link:     papers/emnlp14drnt.pdf
-    authors:  O. İrsoy, C. Cardie
-    venue:    EMNLP 2014, Doha, Qatar
-    repo:     https://github.com/oir/deep-recurrent
+- title:    Convolutional Soft Decision Trees
+  link:     https://www.cmpe.boun.edu.tr/~ethem/files/papers/Alper-icann18.pdf
+  authors:  A. Ahmetoğlu, O. İrsoy, E. Alpaydın
+  venue:    ICANN 2018, Rhodes, Greece
 
-  - title:    Budding Trees
-    link:     papers/budding-icpr2014.pdf
-    authors:  O. İrsoy, O.T. Yıldız, E. Alpaydın
-    venue:    ICPR 22, 2014, Stockholm, Sweden
-    repo:     https://github.com/oir/budding-tree
+- title:    Collective Entity Disambiguation with Structured Gradient Tree Boosting
+  link:     https://arxiv.org/abs/1802.10229
+  authors:  Y. Yang, O. İrsoy, K. S. Rahman
+  venue:    NAACL 2018, New Orleans, LA
 
-  - title:    Soft Decision Trees
-    link:     papers/icpr21.pdf
-    authors:  O. İrsoy, O.T. Yıldız, E. Alpaydın
-    venue:    ICPR 21, 2012, Tsukuba, Japan
-    repo:     https://github.com/oir/soft-tree
+- title:    Unsupervised Feature Extraction with Autoencoder Trees
+  link:     papers/Ozan_Neurocomp.pdf
+  authors:  O. İrsoy, E. Alpaydın
+  venue:    Neurocomputing (2017), 258, 63-73
 
+- title:    "Ask Me Anything: Dynamic Memory Networks for Natural Language Processing"
+  link:     papers/kumar16.pdf
+  authors:  A. Kumar, O. İrsoy, P. Ondruska, M. Iyyer, J. Bradbury, I. Gulrajani, V. Zhong, R. Paulus, R. Socher
+  venue:    ICML 2016, New York, New York
 
-Workshop:
-  - title:   Distillation of encoder-decoder transformers for sequence labelling
-    link:    https://arxiv.org/abs/2302.05454
-    authors: M. Farina, D. Pappadopulo, A. Gupta, L. Huang, O. İrsoy, T. Solorio
-    venue:   Findings of EACL 2023
+- title:    Physics-Inspired Neural Networks for Efficient Device Compact Modeling
+  link:     papers/piNN.pdf
+  authors:  M. Li, O. İrsoy, C. Cardie, H. G. Xing
+  venue:    IEEE Journal on Exploratory Solid-State Computational Devices and Circuits (2016), 2, 44-49
 
-  - title:   Weakly Supervised Headline Dependency Parsing
-    link:    https://arxiv.org/abs/2301.10371
-    authors: A. Benton, T. Shi, O. İrsoy, I. Malioutov
-    venue:   Findings of EMNLP 2022
+- title:    "Ask Me Anything: Dynamic Memory Networks for Natural Language Processing"
+  link:     http://arxiv.org/abs/1506.07285
+  authors:  A. Kumar, O. İrsoy, P. Ondruska, M. Iyyer, J. Bradbury, I. Gulrajani, R. Socher
+  venue:
+    - NeurIPS Deep Learning Symposium, 2015, Montreal, Quebec
+    - NeurIPS Workshop on Reasoning, Attention and Memory, 2015, Montreal, Quebec
 
-  - title:   Distributed Decision Trees
-    link:    https://arxiv.org/abs/1412.6388
-    authors: O. İrsoy, E. Alpaydın
-    venue:   S+SSPR 2022
+- title:    Autoencoder Trees
+  link:     papers/AiP25_Paper36.pdf
+  authors:  O. İrsoy, E. Alpaydın
+  venue:    ACML 2015, Hong Kong
 
-  - title:    Corrected CBOW Performs as well as Skip-gram
-    link:     https://aclanthology.org/2021.insights-1.1.pdf
-    authors:  O. İrsoy, A. Benton, K. Stratos
-    venue:    Workshop on Insights from Negative Results in NLP, 2021
-    repo:     https://github.com/bloomberg/koan
+- title:    Modeling Compositionality with Multiplicative Recurrent Neural Networks
+  link:     http://arxiv.org/abs/1412.6577
+  authors:  O. İrsoy, C. Cardie
+  venue:    ICLR 2015, San Diego, California
 
-  - title:    Dialogue Act Classification in Group Chats with DAG-LSTMs
-    link:     https://arxiv.org/abs/1908.01821
-    authors:  O. İrsoy, R. Gosangi, H. Zhang, M. Wei, P. Lund, D. Pappadopulo, B. Fahy, N. Neophytou, C. Ortiz
-    venue:    SIGIR 2019 Workshop on Conversational Interaction Systems
+- title:    Learning Acoustic Frame Labeling for Speech Recognition with Recurrent Neural Networks
+  link:     papers/icassp15.pdf
+  authors:  H. Sak, A. Senior, K. Rao, O. İrsoy, A. Graves, F. Beaufays, J. Schalkwyk
+  venue:    ICASSP 2015, Brisbane, Australia
 
-  - title:    "Ask Me Anything: Dynamic Memory Networks for Natural Language Processing"
-    link:     http://arxiv.org/abs/1506.07285
-    authors:  A. Kumar, O. İrsoy, P. Ondruska, M. Iyyer, J. Bradbury, I. Gulrajani, R. Socher
-    venue:
-      - NeurIPS Deep Learning Symposium, 2015, Montreal, Quebec
-      - NeurIPS Workshop on Reasoning, Attention and Memory, 2015, Montreal, Quebec
+- title:    Deep Recursive Neural Networks for Compositionality in Language
+  link:     papers/nips14drsv.pdf
+  authors:  O. İrsoy, C. Cardie
+  venue:    NeurIPS 2014, Montreal, Quebec
+  repo:     https://github.com/oir/deep-recursive
 
-  - title:    Autoencoder Trees
-    link:     http://arxiv.org/abs/1409.7461
-    authors:  O. İrsoy, E. Alpaydın
-    venue:    NeurIPS Deep Learning Workshop, 2014, Montreal, Quebec
+- title:    Opinion Mining with Deep Recurrent Neural Networks
+  link:     papers/emnlp14drnt.pdf
+  authors:  O. İrsoy, C. Cardie
+  venue:    EMNLP 2014, Doha, Qatar
+  repo:     https://github.com/oir/deep-recurrent
 
-  - title:    Bidirectional Recursive Neural Networks for Token-Level Labeling with Structure
-    link:     http://arxiv.org/abs/1312.0493
-    authors:  O. İrsoy, C. Cardie
-    venue:    NeurIPS Deep Learning Workshop, 2013, Lake Tahoe, Nevada
+- title:    Budding Trees
+  link:     papers/budding-icpr2014.pdf
+  authors:  O. İrsoy, O.T. Yıldız, E. Alpaydın
+  venue:    ICPR 22, 2014, Stockholm, Sweden
+  repo:     https://github.com/oir/budding-tree
 
+- title:    Autoencoder Trees
+  link:     http://arxiv.org/abs/1409.7461
+  authors:  O. İrsoy, E. Alpaydın
+  venue:    NeurIPS Deep Learning Workshop, 2014, Montreal, Quebec
 
-Preprint:
-  - title:   "BloombergGPT: A Large Language Model for Finance"
-    link:    https://arxiv.org/abs/2303.17564
-    authors: S. Wu, O. İrsoy, S. Lu, V. Dabravolski, M. Dredze, S. Gehrmann, P. Kambadur, D. Rosenberg, G. Mann
-    venue:   arXiv:2303.17564, 2023
+- title:    Bidirectional Recursive Neural Networks for Token-Level Labeling with Structure
+  link:     http://arxiv.org/abs/1312.0493
+  authors:  O. İrsoy, C. Cardie
+  venue:    NeurIPS Deep Learning Workshop, 2013, Lake Tahoe, Nevada
 
-  - title:   "PathFinder: Discovering Decision Pathways in Deep Neural Networks"
-    link:    https://arxiv.org/abs/2210.00319
-    authors: O. İrsoy, E. Alpaydın
-    venue:   arXiv:2210.00319, 2022
+- title:    "Design and Analysis of Classifier Learning Experiments in Bioinformatics: Survey and Case Studies"
+  link:     papers/ieee-tcbb.pdf
+  authors:  O. İrsoy, O. T. Yıldız, E. Alpaydın
+  venue:    IEEE/ACM TCBB (2012), 9(6), 1663-1675
 
-  - title:   On Expected Accuracy
-    link:    https://arxiv.org/abs/1905.00448
-    authors: O. İrsoy
-    venue:   arXiv:1905.00448, 2019
+- title:    Soft Decision Trees
+  link:     papers/icpr21.pdf
+  authors:  O. İrsoy, O.T. Yıldız, E. Alpaydın
+  venue:    ICPR 21, 2012, Tsukuba, Japan
+  repo:     https://github.com/oir/soft-tree
 
