@@ -1,0 +1,50 @@
+# wtimesx.mplstyle — site-native figures for wtimesx.com
+#
+# Mono by default: series cycle through ink-opacity steps (100 / 68 / 48%),
+# encoded as RGBA sentinels on the ink hex #1a1a1a. sitefig.save_svg() rewrites
+# the ink to currentColor, so one exported SVG follows the page theme (and any
+# ground) with no per-mode exports. Use sitefig.hero() for the one series that
+# earns color, sitefig.baseline() for dashed reference lines.
+#
+# Figure text stays text (svg.fonttype: none) and is re-pointed at the site's
+# mono stack by sitefig, so figures render in the page's own fonts.
+
+figure.figsize: 6.4, 3.4
+figure.dpi: 120
+savefig.transparent: True
+savefig.bbox: tight
+svg.fonttype: none
+
+font.family: sans-serif
+font.sans-serif: Geist Mono, Menlo, DejaVu Sans
+font.size: 10
+
+text.color: 1a1a1a
+axes.labelcolor: 1a1a1a
+axes.edgecolor: 1a1a1a73
+xtick.labelcolor: 1a1a1aA6
+ytick.labelcolor: 1a1a1aA6
+xtick.color: 1a1a1a73
+ytick.color: 1a1a1a73
+
+axes.spines.top: False
+axes.spines.right: False
+axes.linewidth: 0.8
+xtick.major.size: 3.5
+ytick.major.size: 0
+xtick.major.width: 0.8
+
+axes.grid: True
+axes.grid.axis: y
+grid.color: 1a1a1a
+grid.alpha: 0.12
+grid.linewidth: 0.6
+
+lines.linewidth: 2.0
+lines.solid_capstyle: round
+
+legend.frameon: False
+legend.fontsize: 9
+
+# ink at 100% / 68% / 48% opacity (ff / ad / 7a)
+axes.prop_cycle: cycler('color', ['1a1a1aff', '1a1a1aad', '1a1a1a7a'])

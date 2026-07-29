@@ -4,21 +4,52 @@
     <meta charset="UTF-8" />
     <title>Ozan</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="description" content="Description" />
+    <meta name="description" content="Ozan İrsoy — research, writing, code" />
     <meta
       name="viewport"
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
-    <meta name="giscus:backlink" content="wtimesx.com/" />
+    <meta name="color-scheme" content="light dark" />
+    <!-- Wx favicon: the svg swaps ink with the system theme; the neutral
+         gray png is the fallback for browsers without svg favicons -->
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fontsource/geist@5/300.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fontsource/geist@5/400.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fontsource/geist@5/400-italic.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fontsource/geist@5/600.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fontsource/geist@5/700.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fontsource/geist-mono@5/400.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fontsource/geist-mono@5/600.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/katex@0.16/dist/katex.min.css"
     />
 
     <script src="https://use.fontawesome.com/fc978d1e69.js"></script>
@@ -27,132 +58,387 @@
     <div id="app"></div>
     <script>
       window.$docsify = {
-        plugins: [
-          function giscusPlugin(hook, vm) {
-            function renderGiscus(config){
-                var el = document.getElementById("giscus");
-                if(el){
-                    el.remove();
-                }
-                var giscus = document.createElement("script");
-                giscus.src = "https://giscus.app/client.js";
-                giscus.dataset["repo"] = config.repo;//"mg0324/docsify-note-01";
-                giscus.dataset["repoId"] = config.repoId;//"R_kgDOI4bELQ";
-                giscus.dataset["category"] = config.category;//"Announcements";
-                giscus.dataset["categoryId"] = config.categoryId;//"DIC_kwDOI4bELc4CT_Su";
-                giscus.dataset["mapping"] = config.mapping;//"url";
-                giscus.dataset["reactionsEnabled"] = config.reactionsEnabled;//"0";
-                giscus.dataset["strict"] = config.strict;//"1";
-                giscus.dataset["emitMetadata"] = config.emitMetadata;//"0";
-                giscus.dataset["inputPosition"] = config.inputPosition;//"bottom";
-                giscus.dataset["theme"] = config.theme;//"light";
-                giscus.dataset["lang"] = config.lang;//"zh-CN";
-                giscus.dataset["loading"] = config.loading;//"lazy";
-                giscus.dataset["term"] = config.term;//"location.pathname";
-                giscus.crossorigin = "anonymous";
-                giscus.id = "giscus";
-                var s = document.getElementsByTagName("script")[0]; 
-                s.parentNode.insertBefore(giscus, s);
-                console.info("[docsify-giscus] rendering!")
-            }
-
-            hook.afterEach(function(html, next) {
-                // Add the Giscus comment section only for blog pages
-                if (vm.route.file.startsWith("blog/")) {
-                  html = html + "<div class='giscus'></div>";
-                  var config = window.$docsify.giscus;
-                  renderGiscus(config);
-                }
-                next(html);
-            });
-          }
-        ],
         name: "",
         loadSidebar: true,
         executeScript: true,
         subMaxLevel: 1,
         noCompileLinks: ["../.*"],
-        giscus:{
-          repo: "oir/webpage",
-          repoid: "MDEwOlJlcG9zaXRvcnk5Nzk5Nzc3Ng==",
-          category: "Blog comments",
-          categoryid: "DIC_kwDOBddT0M4CZwjU",
-          mapping: "url",
-          reactionsEnabled: "1",
-          strict: "1",
-          emitMetadata: "0",
-          inputPosition: "bottom",
-          theme: "light",
-          lang: "en",
-          loading: "lazy"
+        latex: {
+          // the plugin's default wraps even inline math in an
+          // overflow: auto box, which grows scrollbars from katex's
+          // sub-pixel overhang; .katex-display handles wide equations
+          overflowScroll: false,
         },
+        plugins: [
+          // tag blog routes on <body> so CSS can give posts their own
+          // measure and type size
+          function (hook, vm) {
+            hook.doneEach(function () {
+              document.body.classList.toggle(
+                "blog", /^\/blog\//.test(vm.route.path));
+            });
+          },
+          // inline KaTeX renders as an atomic inline-block, which lets
+          // the browser break the line before trailing punctuation
+          // (", which…" starting a line). Cling such punctuation to the
+          // math and forbid wrapping inside.
+          function (hook) {
+            hook.doneEach(function () {
+              document
+                .querySelectorAll('docsify-latex[display="false"]')
+                .forEach(function (el) {
+                  var t = el.nextSibling;
+                  if (t && t.nodeType === 3) {
+                    var m = t.nodeValue.match(/^[,.;:!?)\]}%”’]+/);
+                    if (m) {
+                      el.appendChild(document.createTextNode(m[0]));
+                      t.nodeValue = t.nodeValue.slice(m[0].length);
+                      el.style.whiteSpace = "nowrap";
+                    }
+                  }
+                });
+            });
+          },
+          // figures live as external SVGs (blog/figs/); graft each into
+          // the page so it inherits ink (currentColor), theme variables,
+          // and page fonts (KaTeX, Geist Mono). If the fetch fails the
+          // <img> simply stays — same figure, minus the theming.
+          function (hook) {
+            hook.doneEach(function () {
+              document.querySelectorAll("img[data-fig]").forEach(function (img) {
+                fetch(img.getAttribute("src"))
+                  .then(function (r) {
+                    if (!r.ok) throw new Error(r.status);
+                    return r.text();
+                  })
+                  .then(function (text) {
+                    var svg = new DOMParser()
+                      .parseFromString(text, "image/svg+xml").documentElement;
+                    if (svg.nodeName !== "svg" || !img.isConnected) return;
+                    svg.setAttribute("role", "img");
+                    if (img.alt) svg.setAttribute("aria-label", img.alt);
+                    img.replaceWith(svg);
+                  })
+                  .catch(function () {});
+              });
+            });
+          },
+        ],
       };
     </script>
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+
+    <script src="//cdn.jsdelivr.net/npm/katex@0.16/dist/katex.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-latex@0/dist/docsify-latex.min.js"></script>
 
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
 
     <script src="//unpkg.com/docsify-fontawesome/dist/docsify-fontawesome.min.js"></script>
 
-    <script type="module" src="https://unpkg.com/giscus?module"></script>
-
     <script src="//cdn.jsdelivr.net/npm/vue@3/dist/vue.global.prod.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/js-yaml@3.8.3/dist/js-yaml.min.js"></script>
 
-    <link rel="stylesheet" href="https://unpkg.com/docsify-giscus@1.0.0/dist/giscus.css">
-
     <style>
+      /* ============================================================
+         Ink on paper. Color belongs to the data.
+         The page is strictly grayscale; the only chroma on the site
+         lives inside figures (--fig1..3, the Banishing Gradients
+         lavender/plum/rose). Figures exported via tools/sitefig.py
+         use currentColor for ink and var(--fig1..3) for series, so
+         they follow the theme with no per-mode exports.
+         ============================================================ */
+
+      /* ---- primitives: light ---- */
       :root {
-        --base-font-family: "Helvetica Neue", Roboto, Helvetica, Arial,
+        --paper: #ffffff;
+        --chip: #f6f6f6;
+        --line: #e8e8e8;
+        --fg-muted: #6b6b6b;
+        --fg: #1a1a1a;
+        --fig1: #6f5fae; /* lavender */
+        --fig2: #96455f; /* plum — sitefig.hero() */
+        --fig3: #cc73a0; /* rose */
+        --mono: "Geist Mono", ui-monospace, "SF Mono", Menlo, Consolas,
+          monospace;
+      }
+
+      /* ---- primitives: dark (auto, unless forced light) ---- */
+      @media (prefers-color-scheme: dark) {
+        :root:not([data-theme="light"]) {
+          --paper: #141414;
+          --chip: #1f1f1f;
+          --line: #2a2a2a;
+          --fg-muted: #9a9891;
+          --fg: #e5e3de;
+          --fig1: #877ad0;
+          --fig2: #a4507a;
+          --fig3: #cd709d;
+        }
+      }
+      :root[data-theme="dark"] {
+        --paper: #141414;
+        --chip: #1f1f1f;
+        --line: #2a2a2a;
+        --fg-muted: #9a9891;
+        --fg: #e5e3de;
+        --fig1: #877ad0;
+        --fig2: #a4507a;
+        --fig3: #cd709d;
+      }
+
+      /* ---- docsify-themeable mapping ---- */
+      :root {
+        --base-font-family: "Geist", "Helvetica Neue", Helvetica, Arial,
           sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-        --base-font-size: 14px;
+        --base-font-size: 15px;
         --base-font-weight: 400;
-        --sidebar-background: white;
+        --base-color: var(--fg);
+        --base-background-color: var(--paper);
+        --content-max-width: 45em;
+
+        --heading-color: var(--fg);
+        --heading-h1-font-weight: 700;
+        --heading-h1-font-size: 38px;
+        --heading-h2-font-weight: 600;
+        --heading-h2-font-size: 30px;
+
+        --link-color: var(--fg);
+        --link-color--hover: var(--fg);
+        --link-text-decoration: underline;
+        --link-text-decoration--hover: underline;
+
+        --sidebar-background: var(--paper);
+        --sidebar-border-color: var(--line);
+        --sidebar-border-width: 1px;
         --sidebar-font-size: 14px;
         --sidebar-name-font-weight: 300;
-        --sidebar-name-color: black;
+        --sidebar-name-color: var(--fg);
         --sidebar-name-margin: 0.5rem 0 0;
         --sidebar-nav-margin: 0.5rem 0 0;
         --sidebar-nav-strong-margin: 0.5rem 0 0;
         --sidebar-nav-link-padding: 0 0;
         --sidebar-nav-link-margin: 0 0 0 0;
-        --heading-h1-font-weight: 600;
-        --heading-h1-font-size: 40px;
-        --heading-h2-font-weight: 600;
-        --heading-h2-font-size: 32px;
-        --code-font-family: "Fira Mono";
-        --code-font-weight: normal;
+        --sidebar-nav-link-color: var(--fg);
+        --sidebar-nav-link-color--hover: var(--fg);
+
+        /* code: grayscale by design — syntax is typography, not color */
+        --code-font-family: var(--mono);
+        --code-font-size: 0.85em;
+        --code-font-weight: 400;
+        --code-inline-background: var(--chip);
+        --code-inline-color: var(--fg);
+        --code-theme-background: var(--chip);
+        --code-theme-text: var(--fg);
+        --code-theme-comment: var(--fg-muted);
+        --code-theme-keyword: var(--fg);
+        --code-theme-function: var(--fg);
+        --code-theme-operator: var(--fg);
+        --code-theme-punctuation: var(--fg-muted);
+        --code-theme-selector: var(--fg);
+        --code-theme-tag: var(--fg);
+        --code-theme-variable: var(--fg);
+        --code-theme-selection: color-mix(in srgb, var(--fg) 14%, transparent);
+
+        --blockquote-border-color: var(--line);
         --notice-important-border-width: 0;
         --notice-padding: 0.1em 0.5em 0.1em 2em;
       }
+
+      body {
+        background: var(--paper);
+      }
+      ::selection {
+        background: var(--fg);
+        color: var(--paper);
+      }
+
+      /* grayscale "highlighting": weight and slant, not hue */
+      .token.keyword,
+      .token.important,
+      .token.bold {
+        font-weight: 600;
+      }
+      .token.comment,
+      .token.prolog,
+      .token.cdata {
+        font-style: italic;
+      }
+
       .markdown-section h1,
       h2 {
         letter-spacing: -0.04em;
       }
+
+      /* ---- portrait: one alpha asset painted with the page ink ---- */
+      .portrait {
+        width: 170px;
+        aspect-ratio: 400 / 619;
+        background: url(ozi-ink.png) left top / contain no-repeat;
+      }
+      @supports ((-webkit-mask-image: url("")) or (mask-image: url(""))) {
+        .portrait {
+          background: currentColor;
+          -webkit-mask: url(ozi-ink.png) left top / contain no-repeat;
+          mask: url(ozi-ink.png) left top / contain no-repeat;
+        }
+      }
+
+      /* ---- the Wx mark: Computer Modern paths, painted with page ink ---- */
+      .wx {
+        height: 58px;
+        width: auto;
+        display: block;
+        align-self: flex-start;
+      }
+
+      /* ---- publications: hierarchy without color ---- */
       .paper-title {
-        padding-right: 10px;
-        display: inline-block;
+        display: block;
       }
       .paper-authors {
         font-style: italic;
+        color: var(--fg-muted);
+        font-size: 0.93em;
         padding-right: 10px;
-        display: inline-block;
       }
       .paper-venue {
+        font-size: 0.82em;
         font-weight: 600;
+        color: var(--fg-muted);
+        letter-spacing: 0.02em;
         padding-right: 10px;
-        display: inline-block;
+      }
+
+      /* ---- blog pages: one size up, slightly wider measure ---- */
+      body.blog .markdown-section {
+        font-size: 16px;
+        max-width: 48em; /* 768px at 16px, vs the main page's 675px */
+      }
+
+      /* ---- blockquotes: left ink rule, no card (theme default keeps a
+              light tint that breaks in dark mode) ---- */
+      .markdown-section blockquote {
+        background: none;
+        border: 0;
+        border-left: 3px solid var(--line);
+        border-radius: 0;
+        color: var(--fg-muted);
+        margin: 1.4em 0;
+        padding: 0.2em 0 0.2em 1.2em;
+      }
+
+      /* ---- post subtitle: a deck under the title, not a tag line ---- */
+      .post-subtitle {
+        font-size: 1.35em;
+        line-height: 1.4;
+        letter-spacing: -0.015em;
+        color: var(--fg-muted);
+        margin: -0.6em 0 1em; /* tuck up toward the h1 */
+      }
+
+      /* ---- blog metadata: small and muted, same face as prose
+              (mono is reserved for real code and figure labels) ---- */
+      .date,
+      .tags {
+        font-size: 0.85em;
+        color: var(--fg-muted);
+        font-weight: 400;
+        font-style: normal;
+        font-variant-numeric: tabular-nums; /* date column stays aligned */
       }
       .date {
-        font-weight: 600;
-        padding-right: 20px;
-        display: inline-block;
-        padding-bottom: 30px;
+        padding-right: 14px;
       }
-      .tags {
-        font-style: italic;
-        padding-right: 20px;
+      .post-meta {
+        margin: -0.4em 0 2.2em;
       }
+      .post-foot {
+        font-size: 0.85em;
+        color: var(--fg-muted);
+        margin-top: 2.5em;
+      }
+      .post-ack {
+        font-size: 0.85em;
+        color: var(--fg-muted);
+      }
+      /* stroke-drawn nav arrows: weight lives in their stroke-width */
+      .nav-arrow {
+        width: 0.95em;
+        height: auto;
+        vertical-align: -0.1em;
+      }
+
+      /* quiet route back to the blog index */
+      .post-back {
+        font-size: 0.85em;
+        margin-bottom: -0.5em;
+      }
+      .post-back a {
+        color: var(--fg-muted);
+        text-decoration: none;
+        border-bottom: 0;
+      }
+      .post-back a:hover {
+        color: var(--fg);
+      }
+      sup.fn {
+        font-size: 0.7em;
+        line-height: 0; /* don't let the mark stretch the line box */
+      }
+      sup.fn a {
+        border-bottom: 0;
+        padding-left: 1px;
+      }
+      .footnotes {
+        margin-top: 3em;
+        padding-top: 1.2em;
+        border-top: 1px solid var(--line);
+        font-size: 0.82em;
+        color: var(--fg-muted);
+      }
+      .footnotes p {
+        margin: 0.35em 0;
+      }
+      .footnotes .fn-back {
+        border-bottom: 0;
+      }
+      /* date in its own column; title + subtitle share a left anchor */
+      .post-list p {
+        display: grid;
+        grid-template-columns: max-content 1fr;
+        align-items: baseline;
+        margin: 0 0 1.1em;
+      }
+
+      /* display math can run wide; scroll inside its own box
+         (docsify-latex's own overflowScroll is off: it boxes inline
+         math too, which sprouts scrollbars from sub-pixel overhang) */
+      docsify-latex[display="true"] {
+        display: block;
+        max-width: 100%;
+      }
+      .katex-display {
+        overflow-x: auto;
+        overflow-y: hidden;
+        padding: 2px 0;
+      }
+
+      /* ---- figures: external SVGs from tools/sitefig.py, grafted into
+              the DOM by the img[data-fig] plugin ---- */
+      .fig {
+        margin: 1.2em 0 0.3em;
+      }
+      .fig img[data-fig] {
+        width: 100%; /* matches the svg's own style, so no reflow on swap */
+        height: auto;
+      }
+      .figcap {
+        font-size: 0.85em;
+        color: var(--fg-muted);
+        margin: 0.4em 0 1.6em;
+      }
+
+      /* ---- existing utilities, re-tinted to variables ---- */
       .sidebar-nav a {
         display: inline-block;
         text-decoration: underline;
@@ -169,9 +455,6 @@
           text-decoration-thickness: 2px;
         }
       }
-      .comments-div {
-        padding-top: 30px;
-      }
       .video {
         display: block;
         margin: auto;
@@ -179,8 +462,8 @@
         aspect-ratio: 16/9;
       }
       .spoiler {
-        color: var(--base-color);
-        background: var(--base-color);
+        color: var(--fg);
+        background: var(--fg);
         transition-duration: 0.5s;
         border-radius: 2px;
       }
@@ -197,13 +480,13 @@
       .markdown-section .tip {
         margin: 0;
         display: inline-block;
-        background-color: rgb(240, 240, 240);
+        background-color: var(--chip);
         border-radius: 3px;
       }
       .markdown-section .tip::before {
         font-family: FontAwesome;
         font-weight: 400;
-        color: var(--base-color);
+        color: var(--fg);
         content: "\f071";
         background: inherit;
         left: 0;

@@ -1,0 +1,1082 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" style="width:100%;height:auto" viewBox="0 0 690.771399 384.688181" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 384.688181 
+L 690.771399 384.688181 
+L 690.771399 0 
+L 0 0 
+L 0 384.688181 
+z
+" style="fill: none"/>
+  </g>
+  <g id="patch_2">
+   <path d="M 3.6 315.138462 
+L 315.138462 315.138462 
+L 315.138462 3.6 
+L 3.6 3.6 
+L 3.6 315.138462 
+z
+" style="fill: none"/>
+  </g>
+  <g id="pane3d_1">
+   <g id="patch_3">
+    <path d="M 29.384545 285.58709 
+L 134.257915 193.578236 
+L 132.27577 -1 
+M 103.79605 -1 
+L 18.419911 57.9245 
+" style="fill: none; opacity: 0"/>
+   </g>
+  </g>
+  <g id="pane3d_2">
+   <g id="patch_4">
+    <path d="M 134.257915 193.578236 
+L 292.40263 241.451437 
+L 302.474157 20.163068 
+L 213.831942 -1 
+" style="fill: none; opacity: 0"/>
+   </g>
+  </g>
+  <g id="pane3d_3">
+   <g id="patch_5">
+    <path d="M 29.384545 285.58709 
+L 197.23027 342.820351 
+L 292.40263 241.451437 
+L 134.257915 193.578236 
+" style="fill: none; opacity: 0"/>
+   </g>
+  </g>
+  <g id="grid3d_1">
+   <g id="Line3DCollection_1">
+    <path d="M 29.384545 285.58709 
+L 134.257915 193.578236 
+L 132.27577 -1 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.14; stroke-width: 0.6"/>
+    <path d="M 69.773715 299.359284 
+L 172.437726 205.13594 
+L 173.074698 -1 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.14; stroke-width: 0.6"/>
+    <path d="M 111.184545 313.479851 
+L 211.500862 216.961042 
+L 215.154131 -0.684331 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.14; stroke-width: 0.6"/>
+    <path d="M 153.656297 327.962179 
+L 251.478336 229.06293 
+L 258.263732 9.607959 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.14; stroke-width: 0.6"/>
+    <path d="M 197.23027 342.820351 
+L 292.40263 241.451437 
+L 302.474157 20.163068 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.14; stroke-width: 0.6"/>
+   </g>
+  </g>
+  <g id="grid3d_2">
+   <g id="Line3DCollection_2">
+    <path d="M 18.419911 57.9245 
+L 29.384545 285.58709 
+L 197.23027 342.820351 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.14; stroke-width: 0.6"/>
+    <path d="M 47.059551 38.158128 
+L 55.67677 262.520057 
+L 221.167753 317.324328 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.14; stroke-width: 0.6"/>
+    <path d="M 74.433856 19.26506 
+L 80.891518 240.39833 
+L 244.075533 292.925052 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.14; stroke-width: 0.6"/>
+    <path d="M 100.624868 1.188672 
+L 105.093693 219.164966 
+L 266.01865 269.553245 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.14; stroke-width: 0.6"/>
+    <path d="M 125.893154 -1 
+L 128.343089 198.767507 
+L 287.056784 247.145344 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.14; stroke-width: 0.6"/>
+   </g>
+  </g>
+  <g id="grid3d_3">
+   <g id="Line3DCollection_3">
+    <path d="M 292.40263 241.451437 
+L 134.257915 193.578236 
+L 29.384545 285.58709 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.14; stroke-width: 0.6"/>
+    <path d="M 294.188566 202.211424 
+L 133.870048 155.503071 
+L 27.445456 245.325089 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.14; stroke-width: 0.6"/>
+    <path d="M 296.024716 161.868111 
+L 133.471781 116.407073 
+L 25.449506 203.882471 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.14; stroke-width: 0.6"/>
+    <path d="M 297.913229 120.374304 
+L 133.062692 76.248629 
+L 23.394157 161.206533 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.14; stroke-width: 0.6"/>
+    <path d="M 299.856377 77.680078 
+L 132.642333 34.983835 
+L 21.276718 117.24139 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.14; stroke-width: 0.6"/>
+    <path d="M 301.856566 33.732575 
+L 158.72341 -1 
+M 123.040155 -1 
+L 19.094331 71.927725 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.14; stroke-width: 0.6"/>
+   </g>
+  </g>
+  <g id="axis3d_1">
+   <g id="line2d_1">
+    <path d="M 29.384545 285.58709 
+L 197.23027 342.820351 
+" style="fill: none; stroke: currentColor; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="xtick_1">
+    <g id="line2d_2">
+     <path d="M 163.57921 155.159252 
+" clip-path="url(#pf4c85d709f)" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+    </g>
+    <g id="line2d_3">
+     <path d="M 30.299245 284.784593 
+L 27.551143 287.195594 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8; stroke-linecap: round"/>
+    </g>
+    <g id="text_1">
+     <text style="font-size: 15px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="21.98536" y="319.039093" transform="rotate(-0 21.98536 319.039093)">−4</text>
+    </g>
+   </g>
+   <g id="xtick_2">
+    <g id="line2d_4">
+     <path d="M 163.57921 155.159252 
+" clip-path="url(#pf4c85d709f)" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+    </g>
+    <g id="line2d_5">
+     <path d="M 70.67007 298.536624 
+L 67.977033 301.008249 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8; stroke-linecap: round"/>
+    </g>
+    <g id="text_2">
+     <text style="font-size: 15px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="62.326993" y="333.102399" transform="rotate(-0 62.326993 333.102399)">−2</text>
+    </g>
+   </g>
+   <g id="xtick_3">
+    <g id="line2d_6">
+     <path d="M 163.57921 155.159252 
+" clip-path="url(#pf4c85d709f)" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+    </g>
+    <g id="line2d_7">
+     <path d="M 112.061329 312.636258 
+L 109.427042 315.170822 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8; stroke-linecap: round"/>
+    </g>
+    <g id="text_3">
+     <text style="font-size: 15px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="103.690234" y="347.521844" transform="rotate(-0 103.690234 347.521844)">0</text>
+    </g>
+   </g>
+   <g id="xtick_4">
+    <g id="line2d_8">
+     <path d="M 163.57921 155.159252 
+" clip-path="url(#pf4c85d709f)" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+    </g>
+    <g id="line2d_9">
+     <path d="M 154.512207 327.096843 
+L 151.940586 329.696783 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8; stroke-linecap: round"/>
+    </g>
+    <g id="text_4">
+     <text style="font-size: 15px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="146.114388" y="362.311128" transform="rotate(-0 146.114388 362.311128)">2</text>
+    </g>
+   </g>
+   <g id="xtick_5">
+    <g id="line2d_10">
+     <path d="M 163.57921 155.159252 
+" clip-path="url(#pf4c85d709f)" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+    </g>
+    <g id="line2d_11">
+     <path d="M 198.063922 341.932421 
+L 195.559129 344.600298 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8; stroke-linecap: round"/>
+    </g>
+    <g id="text_5">
+     <text style="font-size: 15px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="189.640803" y="377.484665" transform="rotate(-0 189.640803 377.484665)">4</text>
+    </g>
+   </g>
+  </g>
+  <g id="axis3d_2">
+   <g id="line2d_12">
+    <path d="M 292.40263 241.451437 
+L 197.23027 342.820351 
+" style="fill: none; stroke: currentColor; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="xtick_6">
+    <g id="line2d_13">
+     <path d="M 163.57921 155.159252 
+" clip-path="url(#pf4c85d709f)" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+    </g>
+    <g id="line2d_14">
+     <path d="M 195.818396 342.33892 
+L 200.057539 343.784413 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8; stroke-linecap: round"/>
+    </g>
+    <g id="text_6">
+     <text style="font-size: 15px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="209.530104" y="373.813974" transform="rotate(-0 209.530104 373.813974)">−4</text>
+    </g>
+   </g>
+   <g id="xtick_7">
+    <g id="line2d_15">
+     <path d="M 163.57921 155.159252 
+" clip-path="url(#pf4c85d709f)" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+    </g>
+    <g id="line2d_16">
+     <path d="M 219.777184 316.863825 
+L 223.952283 318.246458 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8; stroke-linecap: round"/>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 15px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="233.152111" y="347.936608" transform="rotate(-0 233.152111 347.936608)">−2</text>
+    </g>
+   </g>
+   <g id="xtick_8">
+    <g id="line2d_17">
+     <path d="M 163.57921 155.159252 
+" clip-path="url(#pf4c85d709f)" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+    </g>
+    <g id="line2d_18">
+     <path d="M 242.705761 292.484141 
+L 246.818345 293.807926 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8; stroke-linecap: round"/>
+    </g>
+    <g id="text_8">
+     <text style="font-size: 15px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="255.759881" y="323.170316" transform="rotate(-0 255.759881 323.170316)">0</text>
+    </g>
+   </g>
+   <g id="xtick_9">
+    <g id="line2d_19">
+     <path d="M 163.57921 155.159252 
+" clip-path="url(#pf4c85d709f)" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+    </g>
+    <g id="line2d_20">
+     <path d="M 264.669176 269.130702 
+L 268.720752 270.399318 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8; stroke-linecap: round"/>
+    </g>
+    <g id="text_9">
+     <text style="font-size: 15px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="277.417361" y="299.445045" transform="rotate(-0 277.417361 299.445045)">2</text>
+    </g>
+   </g>
+   <g id="xtick_10">
+    <g id="line2d_21">
+     <path d="M 163.57921 155.159252 
+" clip-path="url(#pf4c85d709f)" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+    </g>
+    <g id="line2d_22">
+     <path d="M 285.727114 246.740045 
+L 289.719165 247.95687 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8; stroke-linecap: round"/>
+    </g>
+    <g id="text_10">
+     <text style="font-size: 15px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="298.183236" y="276.696507" transform="rotate(-0 298.183236 276.696507)">4</text>
+    </g>
+   </g>
+  </g>
+  <g id="axis3d_3">
+   <g id="line2d_23">
+    <path d="M 292.40263 241.451437 
+L 302.474157 20.163068 
+" style="fill: none; stroke: currentColor; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="xtick_11">
+    <g id="line2d_24">
+     <path d="M 163.57921 155.159252 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+    </g>
+    <g id="line2d_25">
+     <path d="M 291.078046 241.050463 
+L 295.05481 242.254299 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8; stroke-linecap: round"/>
+    </g>
+    <g id="text_11">
+     <text style="font-size: 15px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="310.247045" y="249.853546" transform="rotate(-0 310.247045 249.853546)">−4</text>
+    </g>
+   </g>
+   <g id="xtick_12">
+    <g id="line2d_26">
+     <path d="M 163.57921 155.159252 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+    </g>
+    <g id="line2d_27">
+     <path d="M 292.84494 201.819962 
+L 296.878916 202.99525 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8; stroke-linecap: round"/>
+    </g>
+    <g id="text_12">
+     <text style="font-size: 15px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="312.274535" y="210.684674" transform="rotate(-0 312.274535 210.684674)">−2</text>
+    </g>
+   </g>
+   <g id="xtick_13">
+    <g id="line2d_28">
+     <path d="M 163.57921 155.159252 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+    </g>
+    <g id="line2d_29">
+     <path d="M 294.661494 161.48686 
+L 298.75435 162.631505 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8; stroke-linecap: round"/>
+    </g>
+    <g id="text_13">
+     <text style="font-size: 15px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="314.358865" y="170.417707" transform="rotate(-0 314.358865 170.417707)">0</text>
+    </g>
+   </g>
+   <g id="xtick_14">
+    <g id="line2d_30">
+     <path d="M 163.57921 155.159252 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+    </g>
+    <g id="line2d_31">
+     <path d="M 296.529831 120.004009 
+L 300.683309 121.115774 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8; stroke-linecap: round"/>
+    </g>
+    <g id="text_14">
+     <text style="font-size: 15px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="316.50246" y="129.005809" transform="rotate(-0 316.50246 129.005809)">2</text>
+    </g>
+   </g>
+   <g id="xtick_15">
+    <g id="line2d_32">
+     <path d="M 163.57921 155.159252 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+    </g>
+    <g id="line2d_33">
+     <path d="M 298.452197 77.321536 
+L 302.668118 78.398025 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8; stroke-linecap: round"/>
+    </g>
+    <g id="text_15">
+     <text style="font-size: 15px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="318.707884" y="86.399446" transform="rotate(-0 318.707884 86.399446)">4</text>
+    </g>
+   </g>
+   <g id="xtick_16">
+    <g id="line2d_34">
+     <path d="M 163.57921 155.159252 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+    </g>
+    <g id="line2d_35">
+     <path d="M 300.430971 33.386641 
+L 304.711237 34.425287 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8; stroke-linecap: round"/>
+    </g>
+    <g id="text_16">
+     <text style="font-size: 15px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="320.97785" y="42.546182" transform="rotate(-0 320.97785 42.546182)">6</text>
+    </g>
+   </g>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_36">
+    <path d="M 251.982972 27.844945 
+L 118.346453 131.098382 
+" clip-path="url(#pf4c85d709f)" style="fill: none; stroke: var(--fig2, #96455f); stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_37">
+    <path d="M 183.5635 211.049886 
+L 182.812326 209.658434 
+L 181.974265 208.173703 
+L 181.052848 206.60173 
+L 180.051886 204.948827 
+L 178.975453 203.221556 
+L 177.827866 201.426704 
+L 176.613672 199.57126 
+L 175.337627 197.662387 
+L 174.004683 195.707403 
+L 172.619969 193.713754 
+L 171.188776 191.688993 
+L 169.716537 189.640756 
+L 168.208813 187.576736 
+L 166.671275 185.504667 
+L 165.109688 183.432296 
+L 163.529893 181.367365 
+L 161.937791 179.317585 
+L 160.339328 177.290615 
+L 158.740475 175.294045 
+L 157.147212 173.335367 
+L 155.565512 171.421958 
+L 154.001323 169.561054 
+L 152.46055 167.759734 
+L 150.949038 166.024893 
+L 149.472553 164.363221 
+L 148.036766 162.781182 
+L 146.647232 161.284989 
+L 145.309372 159.880587 
+L 144.028456 158.573623 
+L 142.809581 157.369433 
+L 141.657653 156.273011 
+L 140.57737 155.288991 
+L 139.573198 154.421629 
+L 138.649354 153.674774 
+L 137.809788 153.051853 
+L 137.058161 152.555851 
+L 136.397829 152.189287 
+L 135.831822 151.954202 
+L 135.362827 151.852139 
+L 134.993174 151.884128 
+L 134.724814 152.05067 
+L 134.559311 152.351729 
+L 134.497819 152.78672 
+L 134.54108 153.354499 
+L 134.689403 154.053363 
+L 134.942663 154.88104 
+L 135.300288 155.834695 
+L 135.761257 156.91093 
+L 136.324095 158.105789 
+L 136.986874 159.414772 
+L 137.747212 160.832841 
+L 138.602283 162.354441 
+L 139.548816 163.973516 
+L 140.583114 165.683534 
+L 141.70106 167.477512 
+L 142.898134 169.348044 
+L 144.169431 171.287337 
+L 145.509686 173.287243 
+L 146.91329 175.339298 
+L 148.374323 177.434765 
+L 149.886578 179.564673 
+L 151.44359 181.719867 
+L 153.038676 183.89105 
+L 154.664959 186.068835 
+L 156.315411 188.243789 
+L 157.982886 190.406487 
+L 159.660156 192.54756 
+L 161.339955 194.657742 
+L 163.015008 196.72792 
+L 164.678077 198.749182 
+L 166.321994 200.712861 
+L 167.939701 202.610579 
+L 169.524283 204.434291 
+L 171.069003 206.176319 
+L 172.567335 207.829394 
+L 174.013 209.386686 
+L 175.399985 210.841834 
+L 176.722581 212.188974 
+L 177.975402 213.422763 
+L 179.153406 214.538395 
+L 180.25192 215.531623 
+L 181.266653 216.398764 
+L 182.193712 217.136715 
+L 183.029614 217.742955 
+L 183.771298 218.215548 
+L 184.416127 218.553143 
+L 184.961895 218.754968 
+L 185.406831 218.820826 
+L 185.749596 218.751081 
+L 185.989284 218.546653 
+L 186.125413 218.208998 
+L 186.157925 217.740096 
+L 186.087173 217.142429 
+L 185.913917 216.418966 
+L 185.639309 215.573139 
+L 185.264883 214.608826 
+L 184.792542 213.530322 
+L 184.224548 212.34232 
+L 183.5635 211.049886 
+" clip-path="url(#pf4c85d709f)" style="fill: none; stroke: var(--fig1, #6f5fae); stroke-linecap: round"/>
+   </g>
+   <g id="line2d_38">
+    <path d="M 118.346453 131.098382 
+L 134.673743 152.113337 
+" clip-path="url(#pf4c85d709f)" style="fill: none; stroke: var(--fig2, #96455f); stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="Path3DCollection_1">
+    <defs>
+     <path id="C0_0_a182a5ef5b" d="M 0 1.581139 
+C 0.419323 1.581139 0.821528 1.41454 1.118034 1.118034 
+C 1.41454 0.821528 1.581139 0.419323 1.581139 -0 
+C 1.581139 -0.419323 1.41454 -0.821528 1.118034 -1.118034 
+C 0.821528 -1.41454 0.419323 -1.581139 0 -1.581139 
+C -0.419323 -1.581139 -0.821528 -1.41454 -1.118034 -1.118034 
+C -1.41454 -0.821528 -1.581139 -0.419323 -1.581139 0 
+C -1.581139 0.419323 -1.41454 0.821528 -1.118034 1.118034 
+C -0.821528 1.41454 -0.419323 1.581139 0 1.581139 
+z
+"/>
+    </defs>
+    <g clip-path="url(#pf4c85d709f)">
+     <use xlink:href="#C0_0_a182a5ef5b" x="134.673743" y="152.113337" style="fill: var(--fig2, #96455f); fill-opacity: 0.952914; stroke: var(--fig2, #96455f); stroke-opacity: 0.952914"/>
+    </g>
+    <g clip-path="url(#pf4c85d709f)">
+     <use xlink:href="#C0_0_a182a5ef5b" x="118.346453" y="131.098382" style="fill: var(--fig2, #96455f); stroke: var(--fig2, #96455f)"/>
+    </g>
+   </g>
+   <g id="Path3DCollection_2">
+    <defs>
+     <path id="C1_0_117f8d5a5c" d="M 0 1.581139 
+C 0.419323 1.581139 0.821528 1.41454 1.118034 1.118034 
+C 1.41454 0.821528 1.581139 0.419323 1.581139 -0 
+C 1.581139 -0.419323 1.41454 -0.821528 1.118034 -1.118034 
+C 0.821528 -1.41454 0.419323 -1.581139 0 -1.581139 
+C -0.419323 -1.581139 -0.821528 -1.41454 -1.118034 -1.118034 
+C -1.41454 -0.821528 -1.581139 -0.419323 -1.581139 0 
+C -1.581139 0.419323 -1.41454 0.821528 -1.118034 1.118034 
+C -0.821528 1.41454 -0.419323 1.581139 0 1.581139 
+z
+"/>
+    </defs>
+    <g clip-path="url(#pf4c85d709f)">
+     <use xlink:href="#C1_0_117f8d5a5c" x="118.346453" y="131.098382" style="fill: var(--fig2, #96455f); fill-opacity: 0.894684; stroke: var(--fig2, #96455f); stroke-opacity: 0.894684"/>
+    </g>
+    <g clip-path="url(#pf4c85d709f)">
+     <use xlink:href="#C1_0_117f8d5a5c" x="251.982972" y="27.844945" style="fill: var(--fig2, #96455f); stroke: var(--fig2, #96455f)"/>
+    </g>
+   </g>
+   <g id="Poly3DCollection_1">
+    <defs>
+     <path id="mf8a3b374b8" d="M 138.526517 -208.508336 
+L 217.047156 -121.658562 
+L 179.989366 -191.331687 
+L 105.149909 -275.350474 
+z
+" style="stroke: var(--fig1, #6f5fae)"/>
+    </defs>
+    <g clip-path="url(#pf4c85d709f)">
+     <use xlink:href="#mf8a3b374b8" x="0" y="384.688181" style="fill: var(--fig1, #6f5fae); fill-opacity: 0.3; stroke: var(--fig1, #6f5fae)"/>
+    </g>
+   </g>
+  </g>
+  <g id="patch_6">
+   <path d="M 340.061538 315.138462 
+L 651.6 315.138462 
+L 651.6 3.6 
+L 340.061538 3.6 
+L 340.061538 315.138462 
+z
+" style="fill: none"/>
+  </g>
+  <g id="pane3d_4">
+   <g id="patch_7">
+    <path d="M 410.234115 267.872615 
+L 586.249966 200.632841 
+L 536.164368 -1 
+M 479.976079 -1 
+L 343.759797 46.450343 
+" style="fill: none; opacity: 0"/>
+   </g>
+  </g>
+  <g id="pane3d_5">
+   <g id="patch_8">
+    <path d="M 586.249966 200.632841 
+L 659.028939 265.751315 
+L 603.082764 25.834593 
+L 560.365768 -1 
+" style="fill: none; opacity: 0"/>
+   </g>
+  </g>
+  <g id="pane3d_6">
+   <g id="patch_9">
+    <path d="M 410.234115 267.872615 
+L 466.087941 342.011832 
+L 659.028939 265.751315 
+L 586.249966 200.632841 
+" style="fill: none; opacity: 0"/>
+   </g>
+  </g>
+  <g id="grid3d_4">
+   <g id="Line3DCollection_4">
+    <path d="M 410.234115 267.872615 
+L 586.249966 200.632841 
+L 536.164368 -1 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.14; stroke-width: 0.6"/>
+    <path d="M 423.155522 285.024224 
+L 603.120586 215.727709 
+L 550.039421 -1 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.14; stroke-width: 0.6"/>
+    <path d="M 436.736184 303.050915 
+L 620.830061 231.573138 
+L 565.502876 2.227104 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.14; stroke-width: 0.6"/>
+    <path d="M 451.027877 322.021413 
+L 639.442554 248.226535 
+L 583.783717 13.711033 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.14; stroke-width: 0.6"/>
+    <path d="M 466.087941 342.011832 
+L 659.028939 265.751315 
+L 603.082764 25.834593 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.14; stroke-width: 0.6"/>
+   </g>
+  </g>
+  <g id="grid3d_5">
+   <g id="Line3DCollection_5">
+    <path d="M 343.759797 46.450343 
+L 410.234115 267.872615 
+L 466.087941 342.011832 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.14; stroke-width: 0.6"/>
+    <path d="M 388.748528 30.778716 
+L 452.324567 251.793652 
+L 512.317076 323.739625 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.14; stroke-width: 0.6"/>
+    <path d="M 433.188507 15.298245 
+L 493.930134 235.899918 
+L 557.957113 305.700261 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.14; stroke-width: 0.6"/>
+    <path d="M 477.089715 0.005452 
+L 535.059148 220.188234 
+L 603.019242 287.889318 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.14; stroke-width: 0.6"/>
+    <path d="M 524.008076 -1 
+L 575.719749 204.655487 
+L 647.51437 270.302483 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.14; stroke-width: 0.6"/>
+   </g>
+  </g>
+  <g id="grid3d_6">
+   <g id="Line3DCollection_6">
+    <path d="M 659.028939 265.751315 
+L 586.249966 200.632841 
+L 410.234115 267.872615 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.14; stroke-width: 0.6"/>
+    <path d="M 649.003374 222.75819 
+L 576.423786 161.07495 
+L 398.276394 228.042109 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.14; stroke-width: 0.6"/>
+    <path d="M 638.743455 178.760078 
+L 566.390132 120.681821 
+L 386.05979 187.349277 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.14; stroke-width: 0.6"/>
+    <path d="M 628.240868 133.721324 
+L 556.142365 79.426721 
+L 373.575804 145.765809 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.14; stroke-width: 0.6"/>
+    <path d="M 617.486902 87.604565 
+L 545.673556 37.281758 
+L 360.815559 103.262141 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.14; stroke-width: 0.6"/>
+    <path d="M 606.472422 40.370629 
+L 542.384603 -1 
+M 521.327135 -1 
+L 347.769784 59.807387 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.14; stroke-width: 0.6"/>
+   </g>
+  </g>
+  <g id="axis3d_4">
+   <g id="line2d_39">
+    <path d="M 410.234115 267.872615 
+L 466.087941 342.011832 
+" style="fill: none; stroke: currentColor; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="xtick_17">
+    <g id="line2d_40">
+     <path d="M 500.040748 155.159252 
+" clip-path="url(#pc47a222705)" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+    </g>
+    <g id="line2d_41">
+     <path d="M 411.676917 267.321451 
+L 407.346791 268.975601 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8; stroke-linecap: round"/>
+    </g>
+    <g id="text_17">
+     <text style="font-size: 15px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="401.914498" y="298.920643" transform="rotate(-0 401.914498 298.920643)">−4</text>
+    </g>
+   </g>
+   <g id="xtick_18">
+    <g id="line2d_42">
+     <path d="M 500.040748 155.159252 
+" clip-path="url(#pc47a222705)" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+    </g>
+    <g id="line2d_43">
+     <path d="M 424.631577 284.455861 
+L 420.201607 286.161645 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8; stroke-linecap: round"/>
+    </g>
+    <g id="text_18">
+     <text style="font-size: 15px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="414.600053" y="316.521005" transform="rotate(-0 414.600053 316.521005)">−2</text>
+    </g>
+   </g>
+   <g id="xtick_19">
+    <g id="line2d_44">
+     <path d="M 500.040748 155.159252 
+" clip-path="url(#pc47a222705)" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+    </g>
+    <g id="line2d_45">
+     <path d="M 438.247052 302.464294 
+L 433.712556 304.224894 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8; stroke-linecap: round"/>
+    </g>
+    <g id="text_19">
+     <text style="font-size: 15px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="427.931322" y="335.017254" transform="rotate(-0 427.931322 335.017254)">0</text>
+    </g>
+   </g>
+   <g id="xtick_20">
+    <g id="line2d_46">
+     <path d="M 500.040748 155.159252 
+" clip-path="url(#pc47a222705)" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+    </g>
+    <g id="line2d_47">
+     <path d="M 452.575227 321.415375 
+L 447.931188 323.234269 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8; stroke-linecap: round"/>
+    </g>
+    <g id="text_20">
+     <text style="font-size: 15px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="441.958896" y="354.479577" transform="rotate(-0 441.958896 354.479577)">2</text>
+    </g>
+   </g>
+   <g id="xtick_21">
+    <g id="line2d_48">
+     <path d="M 500.040748 155.159252 
+" clip-path="url(#pc47a222705)" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+    </g>
+    <g id="line2d_49">
+     <path d="M 467.673564 341.385109 
+L 462.914599 343.266104 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8; stroke-linecap: round"/>
+    </g>
+    <g id="text_21">
+     <text style="font-size: 15px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="456.738789" y="374.985694" transform="rotate(-0 456.738789 374.985694)">4</text>
+    </g>
+   </g>
+  </g>
+  <g id="axis3d_5">
+   <g id="line2d_50">
+    <path d="M 659.028939 265.751315 
+L 466.087941 342.011832 
+" style="fill: none; stroke: currentColor; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="xtick_22">
+    <g id="line2d_51">
+     <path d="M 500.040748 155.159252 
+" clip-path="url(#pc47a222705)" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+    </g>
+    <g id="line2d_52">
+     <path d="M 465.593489 341.355507 
+L 467.0794 343.327875 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8; stroke-linecap: round"/>
+    </g>
+    <g id="text_22">
+     <text style="font-size: 15px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="475.179749" y="375.375366" transform="rotate(-0 475.179749 375.375366)">−4</text>
+    </g>
+   </g>
+   <g id="xtick_23">
+    <g id="line2d_53">
+     <path d="M 500.040748 155.159252 
+" clip-path="url(#pc47a222705)" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+    </g>
+    <g id="line2d_54">
+     <path d="M 511.786314 323.103109 
+L 513.381326 325.015927 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8; stroke-linecap: round"/>
+    </g>
+    <g id="text_23">
+     <text style="font-size: 15px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="521.498333" y="356.903376" transform="rotate(-0 521.498333 356.903376)">−2</text>
+    </g>
+   </g>
+   <g id="xtick_24">
+    <g id="line2d_55">
+     <path d="M 500.040748 155.159252 
+" clip-path="url(#pc47a222705)" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+    </g>
+    <g id="line2d_56">
+     <path d="M 557.391003 305.083105 
+L 559.092223 306.937725 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8; stroke-linecap: round"/>
+    </g>
+    <g id="text_24">
+     <text style="font-size: 15px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="567.224803" y="338.667523" transform="rotate(-0 567.224803 338.667523)">0</text>
+    </g>
+   </g>
+   <g id="xtick_25">
+    <g id="line2d_57">
+     <path d="M 500.040748 155.159252 
+" clip-path="url(#pc47a222705)" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+    </g>
+    <g id="line2d_58">
+     <path d="M 602.418718 287.291083 
+L 604.223336 289.088822 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8; stroke-linecap: round"/>
+    </g>
+    <g id="text_25">
+     <text style="font-size: 15px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="612.370441" y="320.663308" transform="rotate(-0 612.370441 320.663308)">2</text>
+    </g>
+   </g>
+   <g id="xtick_26">
+    <g id="line2d_59">
+     <path d="M 500.040748 155.159252 
+" clip-path="url(#pc47a222705)" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+    </g>
+    <g id="line2d_60">
+     <path d="M 646.880341 269.722744 
+L 648.785626 271.464883 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8; stroke-linecap: round"/>
+    </g>
+    <g id="text_26">
+     <text style="font-size: 15px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="656.946244" y="302.886345" transform="rotate(-0 656.946244 302.886345)">4</text>
+    </g>
+   </g>
+  </g>
+  <g id="axis3d_6">
+   <g id="line2d_61">
+    <path d="M 659.028939 265.751315 
+L 603.082764 25.834593 
+" style="fill: none; stroke: currentColor; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="xtick_27">
+    <g id="line2d_62">
+     <path d="M 500.040748 155.159252 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+    </g>
+    <g id="line2d_63">
+     <path d="M 658.386316 265.176331 
+L 660.317421 266.904174 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8; stroke-linecap: round"/>
+    </g>
+    <g id="text_27">
+     <text style="font-size: 15px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="678.14093" y="276.984844" transform="rotate(-0 678.14093 276.984844)">−4</text>
+    </g>
+   </g>
+   <g id="xtick_28">
+    <g id="line2d_64">
+     <path d="M 500.040748 155.159252 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+    </g>
+    <g id="line2d_65">
+     <path d="M 648.361815 222.212949 
+L 650.289756 223.851449 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8; stroke-linecap: round"/>
+    </g>
+    <g id="text_28">
+     <text style="font-size: 15px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="668.281103" y="233.748408" transform="rotate(-0 668.281103 233.748408)">−2</text>
+    </g>
+   </g>
+   <g id="xtick_29">
+    <g id="line2d_66">
+     <path d="M 500.040748 155.159252 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+    </g>
+    <g id="line2d_67">
+     <path d="M 638.103187 178.246133 
+L 640.027287 179.790615 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8; stroke-linecap: round"/>
+    </g>
+    <g id="text_29">
+     <text style="font-size: 15px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="658.189489" y="189.495555" transform="rotate(-0 658.189489 189.495555)">0</text>
+    </g>
+   </g>
+   <g id="xtick_30">
+    <g id="line2d_68">
+     <path d="M 500.040748 155.159252 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+    </g>
+    <g id="line2d_69">
+     <path d="M 627.602132 133.240316 
+L 629.521669 134.685845 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8; stroke-linecap: round"/>
+    </g>
+    <g id="text_30">
+     <text style="font-size: 15px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="647.857815" y="144.190017" transform="rotate(-0 647.857815 144.190017)">2</text>
+    </g>
+   </g>
+   <g id="xtick_31">
+    <g id="line2d_70">
+     <path d="M 500.040748 155.159252 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+    </g>
+    <g id="line2d_71">
+     <path d="M 616.849955 87.158227 
+L 618.764156 88.499593 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8; stroke-linecap: round"/>
+    </g>
+    <g id="text_31">
+     <text style="font-size: 15px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="637.277414" y="97.79378" transform="rotate(-0 637.277414 97.79378)">4</text>
+    </g>
+   </g>
+   <g id="xtick_32">
+    <g id="line2d_72">
+     <path d="M 500.040748 155.159252 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+    </g>
+    <g id="line2d_73">
+     <path d="M 605.837537 39.960792 
+L 607.74558 41.192491 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8; stroke-linecap: round"/>
+    </g>
+    <g id="text_32">
+     <text style="font-size: 15px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="626.439194" y="50.266977" transform="rotate(-0 626.439194 50.266977)">6</text>
+    </g>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="line2d_74">
+    <path d="M 575.146189 32.191826 
+L 474.891319 127.81816 
+" clip-path="url(#pc47a222705)" style="fill: none; stroke: var(--fig2, #96455f); stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_75">
+    <path d="M 531.156123 215.240063 
+L 532.170393 213.891424 
+L 533.060206 212.43174 
+L 533.822473 210.867234 
+L 534.45463 209.204496 
+L 534.95464 207.450455 
+L 535.320991 205.612342 
+L 535.552699 203.697664 
+L 535.649301 201.714169 
+L 535.610849 199.669816 
+L 535.437905 197.572745 
+L 535.131532 195.431243 
+L 534.693283 193.253715 
+L 534.125192 191.048655 
+L 533.429761 188.824613 
+L 532.609946 186.59017 
+L 531.669144 184.353905 
+L 530.611176 182.124373 
+L 529.440276 179.910071 
+L 528.161068 177.719415 
+L 526.778556 175.560713 
+L 525.298099 173.44214 
+L 523.725399 171.371713 
+L 522.066478 169.357264 
+L 520.32766 167.406421 
+L 518.515552 165.52658 
+L 516.63702 163.724886 
+L 514.699174 162.008207 
+L 512.70934 160.383117 
+L 510.675041 158.855869 
+L 508.603973 157.43238 
+L 506.503984 156.118206 
+L 504.383047 154.918527 
+L 502.249237 153.838125 
+L 500.110705 152.881365 
+L 497.975654 152.052181 
+L 495.852307 151.354055 
+L 493.748887 150.790005 
+L 491.673586 150.362566 
+L 489.634534 150.073779 
+L 487.639773 149.925175 
+L 485.697229 149.917768 
+L 483.814676 150.05204 
+L 481.999715 150.327934 
+L 480.259734 150.744846 
+L 478.601883 151.301622 
+L 477.033041 151.99655 
+L 475.559788 152.827365 
+L 474.188371 153.791242 
+L 472.924678 154.884804 
+L 471.774206 156.104126 
+L 470.742031 157.444743 
+L 469.832786 158.901662 
+L 469.05063 160.469371 
+L 468.399226 162.14186 
+L 467.881717 163.912637 
+L 467.500703 165.774751 
+L 467.258226 167.720817 
+L 467.15575 169.743041 
+L 467.194148 171.833255 
+L 467.373692 173.982944 
+L 467.694042 176.183287 
+L 468.154245 178.425192 
+L 468.752726 180.699337 
+L 469.487298 182.996211 
+L 470.35516 185.306159 
+L 471.352908 187.619428 
+L 472.47655 189.926215 
+L 473.721514 192.216708 
+L 475.082675 194.481144 
+L 476.554372 196.70985 
+L 478.130437 198.893292 
+L 479.804219 201.022128 
+L 481.568623 203.087249 
+L 483.41614 205.079826 
+L 485.338882 206.991359 
+L 487.328628 208.813713 
+L 489.376857 210.53916 
+L 491.474801 212.160421 
+L 493.613477 213.670693 
+L 495.783742 215.063687 
+L 497.976336 216.333657 
+L 500.181926 217.475418 
+L 502.391152 218.484379 
+L 504.594677 219.35655 
+L 506.783227 220.088565 
+L 508.947635 220.677689 
+L 511.07889 221.121824 
+L 513.168168 221.419517 
+L 515.206881 221.569956 
+L 517.186706 221.572968 
+L 519.099628 221.429013 
+L 520.937963 221.139173 
+L 522.694399 220.705141 
+L 524.362016 220.129202 
+L 525.934311 219.414219 
+L 527.405227 218.56361 
+L 528.769165 217.581327 
+L 530.021007 216.471831 
+L 531.156123 215.240063 
+" clip-path="url(#pc47a222705)" style="fill: none; stroke: var(--fig1, #6f5fae); stroke-linecap: round"/>
+   </g>
+   <g id="line2d_76">
+    <path d="M 474.891319 127.81816 
+L 485.220666 149.938047 
+" clip-path="url(#pc47a222705)" style="fill: none; stroke: var(--fig2, #96455f); stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="Path3DCollection_3">
+    <defs>
+     <path id="C2_0_cf8f55625b" d="M 0 1.581139 
+C 0.419323 1.581139 0.821528 1.41454 1.118034 1.118034 
+C 1.41454 0.821528 1.581139 0.419323 1.581139 -0 
+C 1.581139 -0.419323 1.41454 -0.821528 1.118034 -1.118034 
+C 0.821528 -1.41454 0.419323 -1.581139 0 -1.581139 
+C -0.419323 -1.581139 -0.821528 -1.41454 -1.118034 -1.118034 
+C -1.41454 -0.821528 -1.581139 -0.419323 -1.581139 0 
+C -1.581139 0.419323 -1.41454 0.821528 -1.118034 1.118034 
+C -0.821528 1.41454 -0.419323 1.581139 0 1.581139 
+z
+"/>
+    </defs>
+    <g clip-path="url(#pc47a222705)">
+     <use xlink:href="#C2_0_cf8f55625b" x="474.891319" y="127.81816" style="fill: var(--fig2, #96455f); fill-opacity: 0.647375; stroke: var(--fig2, #96455f); stroke-opacity: 0.647375"/>
+    </g>
+    <g clip-path="url(#pc47a222705)">
+     <use xlink:href="#C2_0_cf8f55625b" x="485.220666" y="149.938047" style="fill: var(--fig2, #96455f); stroke: var(--fig2, #96455f)"/>
+    </g>
+   </g>
+   <g id="Poly3DCollection_2">
+    <defs>
+     <path id="ma1d91e1d53" d="M 422.444242 -216.36519 
+L 521.772616 -115.670247 
+L 575.943995 -183.341361 
+L 482.954201 -278.01112 
+z
+" style="stroke: var(--fig1, #6f5fae)"/>
+    </defs>
+    <g clip-path="url(#pc47a222705)">
+     <use xlink:href="#ma1d91e1d53" x="0" y="384.688181" style="fill: var(--fig1, #6f5fae); fill-opacity: 0.3; stroke: var(--fig1, #6f5fae)"/>
+    </g>
+   </g>
+   <g id="Path3DCollection_4">
+    <defs>
+     <path id="C3_0_fb001a1380" d="M 0 1.581139 
+C 0.419323 1.581139 0.821528 1.41454 1.118034 1.118034 
+C 1.41454 0.821528 1.581139 0.419323 1.581139 -0 
+C 1.581139 -0.419323 1.41454 -0.821528 1.118034 -1.118034 
+C 0.821528 -1.41454 0.419323 -1.581139 0 -1.581139 
+C -0.419323 -1.581139 -0.821528 -1.41454 -1.118034 -1.118034 
+C -1.41454 -0.821528 -1.581139 -0.419323 -1.581139 0 
+C -1.581139 0.419323 -1.41454 0.821528 -1.118034 1.118034 
+C -0.821528 1.41454 -0.419323 1.581139 0 1.581139 
+z
+"/>
+    </defs>
+    <g clip-path="url(#pc47a222705)">
+     <use xlink:href="#C3_0_fb001a1380" x="474.891319" y="127.81816" style="fill: var(--fig2, #96455f); fill-opacity: 0.389786; stroke: var(--fig2, #96455f); stroke-opacity: 0.389786"/>
+    </g>
+    <g clip-path="url(#pc47a222705)">
+     <use xlink:href="#C3_0_fb001a1380" x="575.146189" y="32.191826" style="fill: var(--fig2, #96455f); stroke: var(--fig2, #96455f)"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pf4c85d709f">
+   <rect x="3.6" y="3.6" width="311.538462" height="311.538462"/>
+  </clipPath>
+  <clipPath id="pc47a222705">
+   <rect x="340.061538" y="3.6" width="311.538462" height="311.538462"/>
+  </clipPath>
+ </defs>
+</svg>

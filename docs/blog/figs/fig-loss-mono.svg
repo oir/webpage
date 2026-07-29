@@ -1,0 +1,671 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" style="width:100%;height:auto" viewBox="0 0 856.57375 356.678125" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 356.678125 
+L 856.57375 356.678125 
+L 856.57375 0 
+L 0 0 
+L 0 356.678125 
+z
+" style="fill: none"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 26.365 330.078125 
+L 404.113837 330.078125 
+L 404.113837 9.678125 
+L 26.365 9.678125 
+L 26.365 330.078125 
+z
+" style="fill: none"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="mdcea315344" d="M 0 0 
+L 0 3.5 
+" style="stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mdcea315344" x="43.535402" y="330.078125" style="fill: currentColor; fill-opacity: 0.45098; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 16px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="43.535402" y="349.234375" transform="rotate(-0 43.535402 349.234375)">−6</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#mdcea315344" x="100.770074" y="330.078125" style="fill: currentColor; fill-opacity: 0.45098; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 16px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="100.770074" y="349.234375" transform="rotate(-0 100.770074 349.234375)">−4</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#mdcea315344" x="158.004746" y="330.078125" style="fill: currentColor; fill-opacity: 0.45098; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 16px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="158.004746" y="349.234375" transform="rotate(-0 158.004746 349.234375)">−2</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#mdcea315344" x="215.239419" y="330.078125" style="fill: currentColor; fill-opacity: 0.45098; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 16px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="215.239419" y="349.234375" transform="rotate(-0 215.239419 349.234375)">0</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#mdcea315344" x="272.474091" y="330.078125" style="fill: currentColor; fill-opacity: 0.45098; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 16px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="272.474091" y="349.234375" transform="rotate(-0 272.474091 349.234375)">2</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#mdcea315344" x="329.708763" y="330.078125" style="fill: currentColor; fill-opacity: 0.45098; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 16px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="329.708763" y="349.234375" transform="rotate(-0 329.708763 349.234375)">4</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#mdcea315344" x="386.943436" y="330.078125" style="fill: currentColor; fill-opacity: 0.45098; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 16px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="386.943436" y="349.234375" transform="rotate(-0 386.943436 349.234375)">6</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_8">
+      <path d="M 26.365 315.514489 
+L 404.113837 315.514489 
+" clip-path="url(#p599c18c99c)" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_9"/>
+     <g id="text_8">
+      <text style="font-size: 16px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: end; fill: currentColor; opacity: 0.65098" x="22.865" y="321.592614" transform="rotate(-0 22.865 321.592614)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_10">
+      <path d="M 26.365 266.969034 
+L 404.113837 266.969034 
+" clip-path="url(#p599c18c99c)" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_11"/>
+     <g id="text_9">
+      <text style="font-size: 16px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: end; fill: currentColor; opacity: 0.65098" x="22.865" y="273.047159" transform="rotate(-0 22.865 273.047159)">10</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_12">
+      <path d="M 26.365 218.42358 
+L 404.113837 218.42358 
+" clip-path="url(#p599c18c99c)" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_13"/>
+     <g id="text_10">
+      <text style="font-size: 16px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: end; fill: currentColor; opacity: 0.65098" x="22.865" y="224.501705" transform="rotate(-0 22.865 224.501705)">20</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_14">
+      <path d="M 26.365 169.878125 
+L 404.113837 169.878125 
+" clip-path="url(#p599c18c99c)" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_15"/>
+     <g id="text_11">
+      <text style="font-size: 16px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: end; fill: currentColor; opacity: 0.65098" x="22.865" y="175.95625" transform="rotate(-0 22.865 175.95625)">30</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_16">
+      <path d="M 26.365 121.33267 
+L 404.113837 121.33267 
+" clip-path="url(#p599c18c99c)" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_17"/>
+     <g id="text_12">
+      <text style="font-size: 16px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: end; fill: currentColor; opacity: 0.65098" x="22.865" y="127.410795" transform="rotate(-0 22.865 127.410795)">40</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_18">
+      <path d="M 26.365 72.787216 
+L 404.113837 72.787216 
+" clip-path="url(#p599c18c99c)" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_19"/>
+     <g id="text_13">
+      <text style="font-size: 16px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: end; fill: currentColor; opacity: 0.65098" x="22.865" y="78.865341" transform="rotate(-0 22.865 78.865341)">50</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_20">
+      <path d="M 26.365 24.241761 
+L 404.113837 24.241761 
+" clip-path="url(#p599c18c99c)" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_21"/>
+     <g id="text_14">
+      <text style="font-size: 16px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: end; fill: currentColor; opacity: 0.65098" x="22.865" y="30.319886" transform="rotate(-0 22.865 30.319886)">60</text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_22">
+    <path d="M 43.535402 24.241761 
+L 205.94882 299.568931 
+L 209.389783 305.000215 
+L 211.45436 307.946996 
+L 213.518937 310.474187 
+L 214.895322 311.84895 
+L 216.271707 312.946609 
+L 217.648092 313.774801 
+L 219.024477 314.367837 
+L 221.089054 314.923334 
+L 223.153632 315.218162 
+L 226.594594 315.423535 
+L 233.476519 315.506207 
+L 279.585413 315.514489 
+L 386.943436 315.514489 
+L 386.943436 315.514489 
+" clip-path="url(#p599c18c99c)" style="fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_23">
+    <path d="M 43.535402 223.472307 
+L 181.862085 297.502262 
+L 192.873164 303.130751 
+L 199.755088 306.406899 
+L 205.260628 308.772744 
+L 209.389783 310.332823 
+L 213.518937 311.666572 
+L 217.648092 312.75236 
+L 221.777247 313.59226 
+L 225.906402 314.211299 
+L 230.723749 314.707297 
+L 236.917481 315.090407 
+L 245.17579 315.339634 
+L 258.251447 315.472648 
+L 291.972877 315.513474 
+L 386.943436 315.514489 
+L 386.943436 315.514489 
+" clip-path="url(#p599c18c99c)" style="fill: none; stroke: currentColor; stroke-opacity: 0.78; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_24">
+    <path d="M 43.535402 286.375198 
+L 117.171994 298.72346 
+L 146.76427 303.47413 
+L 166.721851 306.466149 
+L 182.550277 308.624791 
+L 196.314126 310.283673 
+L 208.70159 311.563444 
+L 221.089054 312.620419 
+L 233.476519 313.454034 
+L 246.552175 314.112545 
+L 261.692409 314.640509 
+L 279.585413 315.027335 
+L 302.983956 315.293375 
+L 338.769964 315.450134 
+L 386.943436 315.50247 
+L 386.943436 315.50247 
+" clip-path="url(#p599c18c99c)" style="fill: none; stroke: currentColor; stroke-opacity: 0.6; stroke-width: 1.85; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_25">
+    <path d="M 43.535402 305.63108 
+L 97.214413 308.021143 
+L 142.635115 309.82358 
+L 183.23847 311.216487 
+L 222.465439 312.339388 
+L 261.692409 313.236692 
+L 302.983956 313.952675 
+L 348.404658 314.510227 
+L 386.943436 314.835298 
+L 386.943436 314.835298 
+" clip-path="url(#p599c18c99c)" style="fill: none; stroke: currentColor; stroke-opacity: 0.44; stroke-width: 1.7; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_26">
+    <path d="M 43.535402 310.477956 
+L 169.474621 311.745903 
+L 291.972877 312.756916 
+L 386.943436 313.390683 
+L 386.943436 313.390683 
+" clip-path="url(#p599c18c99c)" style="fill: none; stroke: currentColor; stroke-opacity: 0.3; stroke-width: 1.55; stroke-linecap: round"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 26.365 330.078125 
+L 26.365 9.678125 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 26.365 330.078125 
+L 404.113837 330.078125 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="legend_1">
+    <g id="line2d_27">
+     <path d="M 276.4579 28.315625 
+L 290.4579 28.315625 
+L 304.4579 28.315625 
+" style="fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round"/>
+    </g>
+    <g id="text_15">
+     <text style="font-size: 14px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: start; fill: currentColor" x="315.6579" y="33.215625" transform="rotate(-0 315.6579 33.215625)">β = 10</text>
+    </g>
+    <g id="line2d_28">
+     <path d="M 276.4579 49.616406 
+L 290.4579 49.616406 
+L 304.4579 49.616406 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.78; stroke-width: 2; stroke-linecap: round"/>
+    </g>
+    <g id="text_16">
+     <text style="font-size: 14px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: start; fill: currentColor" x="315.6579" y="54.516406" transform="rotate(-0 315.6579 54.516406)">β = 3.16</text>
+    </g>
+    <g id="line2d_29">
+     <path d="M 276.4579 70.917188 
+L 290.4579 70.917188 
+L 304.4579 70.917188 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.6; stroke-width: 1.85; stroke-linecap: round"/>
+    </g>
+    <g id="text_17">
+     <text style="font-size: 14px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: start; fill: currentColor" x="315.6579" y="75.817188" transform="rotate(-0 315.6579 75.817188)">β = 1</text>
+    </g>
+    <g id="line2d_30">
+     <path d="M 276.4579 92.217969 
+L 290.4579 92.217969 
+L 304.4579 92.217969 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.44; stroke-width: 1.7; stroke-linecap: round"/>
+    </g>
+    <g id="text_18">
+     <text style="font-size: 14px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: start; fill: currentColor" x="315.6579" y="97.117969" transform="rotate(-0 315.6579 97.117969)">β = 0.316</text>
+    </g>
+    <g id="line2d_31">
+     <path d="M 276.4579 113.51875 
+L 290.4579 113.51875 
+L 304.4579 113.51875 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.3; stroke-width: 1.55; stroke-linecap: round"/>
+    </g>
+    <g id="text_19">
+     <text style="font-size: 14px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: start; fill: currentColor" x="315.6579" y="118.41875" transform="rotate(-0 315.6579 118.41875)">β = 0.1</text>
+    </g>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_5">
+    <path d="M 460.776163 330.078125 
+L 838.525 330.078125 
+L 838.525 9.678125 
+L 460.776163 9.678125 
+L 460.776163 330.078125 
+z
+" style="fill: none"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_8">
+     <g id="line2d_32">
+      <g>
+       <use xlink:href="#mdcea315344" x="460.776163" y="330.078125" style="fill: currentColor; fill-opacity: 0.45098; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_20">
+      <text style="font-size: 16px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="460.776163" y="349.234375" transform="rotate(-0 460.776163 349.234375)">−1.0</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_33">
+      <g>
+       <use xlink:href="#mdcea315344" x="555.213372" y="330.078125" style="fill: currentColor; fill-opacity: 0.45098; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_21">
+      <text style="font-size: 16px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="555.213372" y="349.234375" transform="rotate(-0 555.213372 349.234375)">−0.5</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_34">
+      <g>
+       <use xlink:href="#mdcea315344" x="649.650581" y="330.078125" style="fill: currentColor; fill-opacity: 0.45098; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_22">
+      <text style="font-size: 16px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="649.650581" y="349.234375" transform="rotate(-0 649.650581 349.234375)">0.0</text>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_35">
+      <g>
+       <use xlink:href="#mdcea315344" x="744.087791" y="330.078125" style="fill: currentColor; fill-opacity: 0.45098; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_23">
+      <text style="font-size: 16px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="744.087791" y="349.234375" transform="rotate(-0 744.087791 349.234375)">0.5</text>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_36">
+      <g>
+       <use xlink:href="#mdcea315344" x="838.525" y="330.078125" style="fill: currentColor; fill-opacity: 0.45098; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_24">
+      <text style="font-size: 16px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: middle; fill: currentColor; opacity: 0.65098" x="838.525" y="349.234375" transform="rotate(-0 838.525 349.234375)">1.0</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_8">
+     <g id="line2d_37">
+      <path d="M 460.776163 330.078125 
+L 838.525 330.078125 
+" clip-path="url(#p9172f854b7)" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_38"/>
+     <g id="text_25">
+      <text style="font-size: 16px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: end; fill: currentColor; opacity: 0.65098" x="457.276163" y="336.15625" transform="rotate(-0 457.276163 336.15625)">0.00</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_39">
+      <path d="M 460.776163 290.028125 
+L 838.525 290.028125 
+" clip-path="url(#p9172f854b7)" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_40"/>
+     <g id="text_26">
+      <text style="font-size: 16px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: end; fill: currentColor; opacity: 0.65098" x="457.276163" y="296.10625" transform="rotate(-0 457.276163 296.10625)">0.25</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_41">
+      <path d="M 460.776163 249.978125 
+L 838.525 249.978125 
+" clip-path="url(#p9172f854b7)" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_42"/>
+     <g id="text_27">
+      <text style="font-size: 16px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: end; fill: currentColor; opacity: 0.65098" x="457.276163" y="256.05625" transform="rotate(-0 457.276163 256.05625)">0.50</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_43">
+      <path d="M 460.776163 209.928125 
+L 838.525 209.928125 
+" clip-path="url(#p9172f854b7)" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_44"/>
+     <g id="text_28">
+      <text style="font-size: 16px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: end; fill: currentColor; opacity: 0.65098" x="457.276163" y="216.00625" transform="rotate(-0 457.276163 216.00625)">0.75</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_45">
+      <path d="M 460.776163 169.878125 
+L 838.525 169.878125 
+" clip-path="url(#p9172f854b7)" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_46"/>
+     <g id="text_29">
+      <text style="font-size: 16px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: end; fill: currentColor; opacity: 0.65098" x="457.276163" y="175.95625" transform="rotate(-0 457.276163 175.95625)">1.00</text>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_47">
+      <path d="M 460.776163 129.828125 
+L 838.525 129.828125 
+" clip-path="url(#p9172f854b7)" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_48"/>
+     <g id="text_30">
+      <text style="font-size: 16px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: end; fill: currentColor; opacity: 0.65098" x="457.276163" y="135.90625" transform="rotate(-0 457.276163 135.90625)">1.25</text>
+     </g>
+    </g>
+    <g id="ytick_14">
+     <g id="line2d_49">
+      <path d="M 460.776163 89.778125 
+L 838.525 89.778125 
+" clip-path="url(#p9172f854b7)" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_50"/>
+     <g id="text_31">
+      <text style="font-size: 16px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: end; fill: currentColor; opacity: 0.65098" x="457.276163" y="95.85625" transform="rotate(-0 457.276163 95.85625)">1.50</text>
+     </g>
+    </g>
+    <g id="ytick_15">
+     <g id="line2d_51">
+      <path d="M 460.776163 49.728125 
+L 838.525 49.728125 
+" clip-path="url(#p9172f854b7)" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_52"/>
+     <g id="text_32">
+      <text style="font-size: 16px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: end; fill: currentColor; opacity: 0.65098" x="457.276163" y="55.80625" transform="rotate(-0 457.276163 55.80625)">1.75</text>
+     </g>
+    </g>
+    <g id="ytick_16">
+     <g id="line2d_53">
+      <path d="M 460.776163 9.678125 
+L 838.525 9.678125 
+" clip-path="url(#p9172f854b7)" style="fill: none; stroke: currentColor; stroke-opacity: 0.12; stroke-width: 0.6; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_54"/>
+     <g id="text_33">
+      <text style="font-size: 16px; font-family: 'KaTeX_Main', 'Times New Roman', serif; text-anchor: end; fill: currentColor; opacity: 0.65098" x="457.276163" y="15.75625" transform="rotate(-0 457.276163 15.75625)">2.00</text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_55">
+    <path d="M 613.190888 -1 
+L 615.585055 16.715082 
+L 620.127125 49.196758 
+L 624.669195 80.350855 
+L 629.211266 109.965917 
+L 633.753336 137.83076 
+L 638.295406 163.748159 
+L 642.837476 187.550513 
+L 647.379546 209.115341 
+L 651.921616 228.377867 
+L 656.463687 245.338088 
+L 661.005757 260.060784 
+L 665.547827 272.668436 
+L 670.089897 283.328642 
+L 674.631967 292.23863 
+L 679.174038 299.609583 
+L 683.716108 305.652957 
+L 688.258178 310.570014 
+L 692.800248 314.544897 
+L 697.342318 317.740912 
+L 701.884389 320.299331 
+L 706.426459 322.339978 
+L 710.968529 323.962891 
+L 715.510599 325.250552 
+L 720.052669 326.270293 
+L 724.594739 327.076648 
+L 729.13681 327.713506 
+L 738.22095 328.612231 
+L 747.30509 329.170344 
+L 756.389231 329.516339 
+L 770.015441 329.804822 
+L 792.725792 329.995957 
+L 838.146494 330.070705 
+L 857.57375 330.075457 
+L 857.57375 330.075457 
+" clip-path="url(#p9172f854b7)" style="fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_56">
+    <path d="M 534.218768 -1 
+L 542.911932 19.159696 
+L 551.996072 39.775645 
+L 561.080213 59.885795 
+L 570.164353 79.437557 
+L 579.248493 98.377157 
+L 588.332634 116.650756 
+L 597.416774 134.205773 
+L 606.500915 150.992396 
+L 615.585055 166.965191 
+L 624.669195 182.084737 
+L 629.211266 189.314248 
+L 633.753336 196.31916 
+L 638.295406 203.096886 
+L 642.837476 209.645461 
+L 647.379546 215.963559 
+L 651.921616 222.050517 
+L 656.463687 227.906334 
+L 661.005757 233.531676 
+L 665.547827 238.927865 
+L 670.089897 244.096869 
+L 674.631967 249.041274 
+L 679.174038 253.764259 
+L 683.716108 258.26956 
+L 688.258178 262.56143 
+L 692.800248 266.644596 
+L 697.342318 270.524211 
+L 701.884389 274.205805 
+L 706.426459 277.695232 
+L 710.968529 280.99862 
+L 715.510599 284.122319 
+L 720.052669 287.072853 
+L 724.594739 289.856866 
+L 729.13681 292.481084 
+L 733.67888 294.952263 
+L 738.22095 297.277154 
+L 742.76302 299.462467 
+L 747.30509 301.514836 
+L 756.389231 305.246718 
+L 765.473371 308.523324 
+L 774.557512 311.392456 
+L 783.641652 313.898753 
+L 792.725792 316.083424 
+L 801.809933 317.984147 
+L 810.894073 319.635074 
+L 819.978213 321.066936 
+L 829.062354 322.307211 
+L 838.146494 323.38033 
+L 851.772705 324.723183 
+L 857.57375 325.208378 
+L 857.57375 325.208378 
+" clip-path="url(#p9172f854b7)" style="fill: none; stroke: currentColor; stroke-opacity: 0.78; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_57">
+    <path d="M 284.881607 -1 
+L 306.724282 15.059823 
+L 329.434633 31.482921 
+L 352.144984 47.602475 
+L 370.313265 60.262401 
+L 388.481546 72.698267 
+L 406.649826 84.896451 
+L 424.818107 96.843251 
+L 442.986388 108.525007 
+L 461.154669 119.92824 
+L 479.322949 131.0398 
+L 497.49123 141.847029 
+L 515.659511 152.337919 
+L 533.827792 162.501287 
+L 547.454002 169.9027 
+L 561.080213 177.110237 
+L 574.706423 184.12041 
+L 588.332634 190.930164 
+L 601.958844 197.536903 
+L 615.585055 203.938521 
+L 629.211266 210.133416 
+L 642.837476 216.120513 
+L 656.463687 221.89927 
+L 670.089897 227.469689 
+L 683.716108 232.832308 
+L 697.342318 237.988206 
+L 710.968529 242.938981 
+L 724.594739 247.686743 
+L 738.22095 252.234085 
+L 751.847161 256.584063 
+L 765.473371 260.740165 
+L 779.099582 264.706275 
+L 792.725792 268.486644 
+L 806.352003 272.085845 
+L 819.978213 275.508738 
+L 838.146494 279.807198 
+L 856.314775 283.813985 
+L 857.57375 284.079429 
+L 857.57375 284.079429 
+" clip-path="url(#p9172f854b7)" style="fill: none; stroke: currentColor; stroke-opacity: 0.6; stroke-width: 1.85; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_58">
+    <path d="M -1 109.197046 
+L 47.826282 118.885485 
+L 97.789054 128.582336 
+L 147.751826 138.051456 
+L 197.714598 147.284827 
+L 247.67737 156.274868 
+L 293.098072 164.23052 
+L 338.518774 171.974345 
+L 383.939475 179.501918 
+L 429.360177 186.809317 
+L 474.780879 193.893163 
+L 520.201581 200.750661 
+L 565.622283 207.379622 
+L 611.042985 213.778497 
+L 656.463687 219.946388 
+L 701.884389 225.883063 
+L 747.30509 231.588954 
+L 792.725792 237.065155 
+L 838.146494 242.313411 
+L 857.57375 244.488926 
+L 857.57375 244.488926 
+" clip-path="url(#p9172f854b7)" style="fill: none; stroke: currentColor; stroke-opacity: 0.44; stroke-width: 1.7; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_59">
+    <path d="M -1 189.077645 
+L 138.667685 195.904375 
+L 279.471861 202.568999 
+L 420.276037 209.013217 
+L 561.080213 215.235723 
+L 701.884389 221.235822 
+L 842.688564 227.013435 
+L 857.57375 227.611208 
+L 857.57375 227.611208 
+" clip-path="url(#p9172f854b7)" style="fill: none; stroke: currentColor; stroke-opacity: 0.3; stroke-width: 1.55; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 460.776163 330.078125 
+L 460.776163 9.678125 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 460.776163 330.078125 
+L 838.525 330.078125 
+" style="fill: none; stroke: currentColor; stroke-opacity: 0.45098; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p599c18c99c">
+   <rect x="26.365" y="9.678125" width="377.748837" height="320.4"/>
+  </clipPath>
+  <clipPath id="p9172f854b7">
+   <rect x="460.776163" y="9.678125" width="377.748837" height="320.4"/>
+  </clipPath>
+ </defs>
+</svg>
