@@ -6,28 +6,22 @@
 </a>
 
 <a href="#/" class="top-title" title="Ozan">
-<span style="letter-spacing: -0.04em; font-size: 24px; font-weight: 600; margin-right: 5px;">
+<span style="letter-spacing: -0.04em; font-size: 18px; font-weight: 700; margin-right: 5px;">
 Ozan İrsoy
 </span>
 </a>
 
-<p style="line-height: 1.7em; margin-bottom: 40px">
+<p style="line-height: 1.7em; margin-bottom: 0px">
 oirsoy
 <i class="fa fa-at fw"></i>
 bloomberg
 <i class="fa fa-circle fw"></i>
-net<br/>
-Bloomberg (New York) 
+net
 </p>
 
 [blog](blog/)
-[scholar](https://scholar.google.com/citations?user=sm7-kIwAAAAJ)
 [github](https://github.com/oir/)
-<br>
-[startle](https://github.com/oir/startle)
-[barkeep](https://github.com/oir/barkeep)
-[kōan](https://github.com/bloomberg/koan)
-[tblr](https://github.com/oir/tblr)
+[scholar](https://scholar.google.com/citations?user=sm7-kIwAAAAJ)
 
 </div>
 
