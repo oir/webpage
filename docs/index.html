@@ -51,8 +51,6 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/katex@0.16/dist/katex.min.css"
     />
-
-    <script src="https://use.fontawesome.com/fc978d1e69.js"></script>
   </head>
   <body>
     <div id="app"></div>
@@ -132,8 +130,6 @@
     <script src="//cdn.jsdelivr.net/npm/docsify-latex@0/dist/docsify-latex.min.js"></script>
 
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
-
-    <script src="//unpkg.com/docsify-fontawesome/dist/docsify-fontawesome.min.js"></script>
 
     <script src="//cdn.jsdelivr.net/npm/vue@3/dist/vue.global.prod.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/js-yaml@3.8.3/dist/js-yaml.min.js"></script>
@@ -344,11 +340,40 @@
         font-size: 0.85em;
         color: var(--fg-muted);
       }
-      /* stroke-drawn nav arrows: weight lives in their stroke-width */
+      @font-face {
+        font-family: "Geist Mono Symbols";
+        src: url("fonts/geist-mono-symbols.woff2") format("woff2");
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+        unicode-range: U+2190-2193, U+25CF;
+      }
       .nav-arrow {
-        width: 0.95em;
-        height: auto;
-        vertical-align: -0.1em;
+        font-family: "Geist Mono Symbols", var(--mono);
+        font-size: 1.05em;
+        line-height: 1;
+        vertical-align: -0.02em;
+      }
+
+      .sidebar-nav .addr-at {
+        display: inline-block;
+        box-sizing: border-box;
+        width: 1.04em; /* x the 0.78em below = 0.811em of the parent */
+        height: 1.04em;
+        border: 0.075em solid currentColor;
+        border-radius: 50%;
+        font-size: 0.78em;
+        line-height: 0.71em; /* 0.89em content box, less the 0.09em the
+                                a's centre sits below that box's middle */
+        text-align: center;
+        vertical-align: middle; /* box centre -> baseline + x-height/2 */
+      }
+
+      .sidebar-nav .addr-dot {
+        font-family: "Geist Mono Symbols", var(--mono);
+        font-size: 1.46em;
+        vertical-align: -0.175em;
+        line-height: 0; /* keep the oversized glyph out of the line box */
       }
 
       /* quiet route back to the blog index */
@@ -455,25 +480,13 @@
         background: inherit;
         transition-duration: 0.5s;
       }
-      .icon::before {
-        display: inline-block;
-        text-rendering: auto;
-        -webkit-font-smoothing: antialiased;
-      }
-      .markdown-section .tip {
-        margin: 0;
-        display: inline-block;
-        background-color: var(--chip);
-        border-radius: 3px;
-      }
-      .markdown-section .tip::before {
-        font-family: FontAwesome;
-        font-weight: 400;
-        color: var(--fg);
-        content: "\f071";
-        background: inherit;
-        left: 0;
-        border-radius: 3px;
+      /* GitHub mark: the one icon with no Unicode equivalent, so unlike
+         the arrows it stays drawn. currentColor, so it follows page ink
+         in both themes. Sized to the 1.33em fa-github lg it replaces. */
+      .gh-mark {
+        width: 1.1em;
+        height: 1.1em;
+        vertical-align: -0.2em;
       }
     </style>
   </body>

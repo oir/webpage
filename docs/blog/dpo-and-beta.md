@@ -1,4 +1,4 @@
-<p class="post-back"><a href="#/blog/"><svg class="nav-arrow" viewBox="0 0 14 10" aria-hidden="true"><path d="M13 5H1m4-4L1 5l4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg> blog</a></p>
+<p class="post-back"><a href="#/blog/"><span class="nav-arrow" aria-hidden="true">←</span> blog</a></p>
 
 # A fundamental confusion about DPO and β
 
@@ -186,8 +186,8 @@ $r$ is essentially an affine map of $\log \pi$, with an intercept of $\log \pi_\
 <p class="post-ack">🙏: <em>Very many thanks to <a href="https://x.com/byryuer" target="_blank" rel="noopener">Shiyue</a> and <a href="https://x.com/ducciolvp" target="_blank" rel="noopener">Duccio</a> for all the discussions and helping me (attempt to) clarify some of the thought processes.</em></p>
 
 <div class="footnotes">
-<p id="fn-1">1. Here I use “margin” to refer to the positive value the hinge loss breaks at, which is typically 1. Not to mean the earlier custom definition of margin I had before for log likelihood differences. Apologies for the overloaded use 😅. <a class="fn-back" aria-label="back to text" href="#/blog/dpo-and-beta?id=fnref-1"><i class="fa fa-level-up" aria-hidden="true"></i></a></p>
-<p id="fn-2">2. I dropped the $Z$ term here as it is a constant translation which cancels in the Bradley-Terry’s differential formulation, and the optimal policy is translation invariant. <a class="fn-back" aria-label="back to text" href="#/blog/dpo-and-beta?id=fnref-2"><i class="fa fa-level-up" aria-hidden="true"></i></a></p>
+<p id="fn-1">1. Here I use “margin” to refer to the positive value the hinge loss breaks at, which is typically 1. Not to mean the earlier custom definition of margin I had before for log likelihood differences. Apologies for the overloaded use 😅. <a class="fn-back" aria-label="back to text" href="#/blog/dpo-and-beta?id=fnref-1"><span class="nav-arrow" aria-hidden="true">↑</span></a></p>
+<p id="fn-2">2. I dropped the $Z$ term here as it is a constant translation which cancels in the Bradley-Terry’s differential formulation, and the optimal policy is translation invariant. <a class="fn-back" aria-label="back to text" href="#/blog/dpo-and-beta?id=fnref-2"><span class="nav-arrow" aria-hidden="true">↑</span></a></p>
 </div>
 
-<p class="post-foot"><a href="https://oirs.substack.com/p/a-fundamental-confusion-about-dpo" target="_blank" rel="noopener">comment on substack <svg class="nav-arrow" viewBox="0 0 14 10" aria-hidden="true"><path d="M1 5h12M9 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></p>
+<p class="post-foot"><a href="https://oirs.substack.com/p/a-fundamental-confusion-about-dpo" target="_blank" rel="noopener">comment on substack <span class="nav-arrow" aria-hidden="true">→</span></a></p>

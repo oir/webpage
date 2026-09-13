@@ -1,4 +1,4 @@
-<p class="post-back"><a href="#/blog/"><svg class="nav-arrow" viewBox="0 0 14 10" aria-hidden="true"><path d="M13 5H1m4-4L1 5l4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg> blog</a></p>
+<p class="post-back"><a href="#/blog/"><span class="nav-arrow" aria-hidden="true">←</span> blog</a></p>
 
 # Contemplating LayerNorm
 
@@ -87,9 +87,9 @@ Is this merely a mismatch of intuition and desiderata? If scalarwise mean-center
 <p class="figcap">Same toy projection example, with RMSNorm added (dashed), which shows what would happen if we were to directly apply RMS norm step after skipping mean-centering, projecting the original point onto the $\sqrt{3}$-scaled sphere.</p>
 
 <div class="footnotes">
-<p id="fn-1">1. B. Zhang, R. Sennrich. Root Mean Square Layer Normalization. <a href="https://arxiv.org/abs/1910.07467" target="_blank" rel="noopener">arxiv.org/abs/1910.07467</a> <a class="fn-back" aria-label="back to text" href="#/blog/contemplating-layernorm?id=fnref-1"><i class="fa fa-level-up" aria-hidden="true"></i></a></p>
-<p id="fn-2">2. S. Ioffe, C. Szegedy. Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift. <a href="https://arxiv.org/abs/1502.03167" target="_blank" rel="noopener">arxiv.org/abs/1502.03167</a> <a class="fn-back" aria-label="back to text" href="#/blog/contemplating-layernorm?id=fnref-2"><i class="fa fa-level-up" aria-hidden="true"></i></a></p>
-<p id="fn-3">3. J. L. Ba, J. R. Kiros, G. E. Hinton. Layer Normalization. <a href="https://arxiv.org/abs/1607.06450" target="_blank" rel="noopener">arxiv.org/abs/1607.06450</a> <a class="fn-back" aria-label="back to text" href="#/blog/contemplating-layernorm?id=fnref-3"><i class="fa fa-level-up" aria-hidden="true"></i></a></p>
+<p id="fn-1">1. B. Zhang, R. Sennrich. Root Mean Square Layer Normalization. <a href="https://arxiv.org/abs/1910.07467" target="_blank" rel="noopener">arxiv.org/abs/1910.07467</a> <a class="fn-back" aria-label="back to text" href="#/blog/contemplating-layernorm?id=fnref-1"><span class="nav-arrow" aria-hidden="true">↑</span></a></p>
+<p id="fn-2">2. S. Ioffe, C. Szegedy. Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift. <a href="https://arxiv.org/abs/1502.03167" target="_blank" rel="noopener">arxiv.org/abs/1502.03167</a> <a class="fn-back" aria-label="back to text" href="#/blog/contemplating-layernorm?id=fnref-2"><span class="nav-arrow" aria-hidden="true">↑</span></a></p>
+<p id="fn-3">3. J. L. Ba, J. R. Kiros, G. E. Hinton. Layer Normalization. <a href="https://arxiv.org/abs/1607.06450" target="_blank" rel="noopener">arxiv.org/abs/1607.06450</a> <a class="fn-back" aria-label="back to text" href="#/blog/contemplating-layernorm?id=fnref-3"><span class="nav-arrow" aria-hidden="true">↑</span></a></p>
 </div>
 
-<p class="post-foot"><a href="https://oirs.substack.com/p/contemplating-layernorm" target="_blank" rel="noopener">comment on substack <svg class="nav-arrow" viewBox="0 0 14 10" aria-hidden="true"><path d="M1 5h12M9 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></p>
+<p class="post-foot"><a href="https://oirs.substack.com/p/contemplating-layernorm" target="_blank" rel="noopener">comment on substack <span class="nav-arrow" aria-hidden="true">→</span></a></p>

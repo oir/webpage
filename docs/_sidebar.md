@@ -13,9 +13,9 @@ Ozan İrsoy
 
 <p style="line-height: 1.7em; margin-bottom: 0px">
 oirsoy
-<i class="fa fa-at fw"></i>
+<span class="addr-at" role="img" aria-label="at">a</span>
 bloomberg
-<i class="fa fa-circle fw"></i>
+<span class="addr-dot" role="img" aria-label="dot">●</span>
 net
 </p>
 
