@@ -139,55 +139,38 @@
     <script src="https://cdn.jsdelivr.net/npm/js-yaml@3.8.3/dist/js-yaml.min.js"></script>
 
     <style>
-      /* ============================================================
-         Ink on paper. Color belongs to the data.
-         The page is strictly grayscale; the only chroma on the site
-         lives inside figures (--fig1..3, the Banishing Gradients
-         lavender/plum/rose). Figures exported via tools/sitefig.py
-         use currentColor for ink and var(--fig1..3) for series, so
-         they follow the theme with no per-mode exports.
-         ============================================================ */
-
-      /* ---- primitives: light ---- */
       :root {
-        --paper: #ffffff;
-        --chip: #f6f6f6;
-        --line: #e8e8e8;
-        --fg-muted: #6b6b6b;
-        --fg: #1a1a1a;
-        --fig1: #6f5fae; /* lavender */
-        --fig2: #96455f; /* plum — sitefig.hero() */
-        --fig3: #cc73a0; /* rose */
+        color-scheme: light dark;
+        --paper:    light-dark(#f3eeea, #222121);
+        --chip:     light-dark(#eae5e1, #2e2d2d);
+        --line:     light-dark(#dcd7d3, #393838);
+        --fg-muted: light-dark(#6a655f, #99948e);
+        --fg:       light-dark(#332e28, #ccc6c0);
+        --fig1:     light-dark(#6f5fae, #877ad0); /* lavender */
+        --fig2:     light-dark(#96455f, #a4507a); /* plum — sitefig.hero() */
+        --fig3:     light-dark(#cc73a0, #cd709d); /* rose */
         --mono: "Geist Mono", ui-monospace, "SF Mono", Menlo, Consolas,
           monospace;
       }
-
-      /* ---- primitives: dark (auto, unless forced light) ---- */
-      @media (prefers-color-scheme: dark) {
-        :root:not([data-theme="light"]) {
-          --paper: #141414;
-          --chip: #1f1f1f;
-          --line: #2a2a2a;
-          --fg-muted: #9a9891;
-          --fg: #e5e3de;
-          --fig1: #877ad0;
-          --fig2: #a4507a;
-          --fig3: #cd709d;
-        }
+      /* manual override hooks: one property each, no palette restated */
+      :root[data-theme="light"] {
+        color-scheme: light;
       }
       :root[data-theme="dark"] {
-        --paper: #141414;
-        --chip: #1f1f1f;
-        --line: #2a2a2a;
-        --fg-muted: #9a9891;
-        --fg: #e5e3de;
-        --fig1: #877ad0;
-        --fig2: #a4507a;
-        --fig3: #cd709d;
+        color-scheme: dark;
       }
 
       /* ---- docsify-themeable mapping ---- */
       :root {
+        /* the theme mixes its own neutral ramp for anything we do not map
+           by hand (table borders and stripes, kbd, notice grounds, the h2
+           rule); re-point it at ours so nothing falls back to a cold gray
+           or lands lighter than the paper */
+        --mono-hue: 27;
+        --mono-saturation: 11%;
+        --mono-tint3: var(--chip);
+        --mono-tint2: var(--line);
+
         --base-font-family: "Geist", "Helvetica Neue", Helvetica, Arial,
           sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
         --base-font-size: 15px;

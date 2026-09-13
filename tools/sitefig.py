@@ -20,7 +20,7 @@ The exported SVG is transparent, responsive, and theme-adaptive: ink becomes
 currentColor and color slots become var(--fig1..3), which the site defines per
 mode. Inline it in the post's markdown — an <img> tag would isolate it from
 page CSS. For contexts that need a raster (Substack cross-posts), save a PNG
-from the same figure with fig.savefig(..., facecolor="white").
+from the same figure with fig.savefig(..., facecolor="#f3eeea").
 """
 
 import re

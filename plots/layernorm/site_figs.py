@@ -11,7 +11,7 @@ Outputs (next to this script; -mono suffix, the post's figures):
     fig-clusters-std-mono.svg  same, including the re-scaling step (2x3)
     fig-rms-mono.svg           + RMSNorm projecting straight onto the sphere (2 views)
 
-Pass --qa to also dump white-background PNG proofs to $QA_DIR or /tmp.
+Pass --qa to also dump paper-background PNG proofs to $QA_DIR or /tmp.
 """
 
 import math
@@ -190,13 +190,13 @@ def clusters_fig(rescale):
             # unordered categories: marker shape + solid gray value (not
             # alpha, which compounds where points overlap and muddies
             # cluster identity). Ink remaps to currentColor; the two fixed
-            # grays sit far enough from both paper and #141414 to read on
-            # either ground.
-            # value follows visibility need: stroke-built crosses get
-            # full ink, solid circles read easily so they take the
-            # lightest gray
-            for s, (marker, color) in zip(shown, [("o", "#adadad"),
-                                                  ("^", "#808080"),
+            # grays are the page palette's warm family at the same L* as
+            # the neutrals they replaced, so they still sit far enough from
+            # both paper and #141414 to read on either ground.
+            # value follows visibility need: stroke-built crosses get full
+            # ink, solid circles read easily so they take the lightest gray
+            for s, (marker, color) in zip(shown, [("o", "#b1aca7"),
+                                                  ("^", "#857f7a"),
                                                   ("x", INK)]):
                 ax.scatter(s[:, 0], s[:, 1], s[:, 2], color=color,
                            marker=marker, s=16, depthshade=False)
@@ -244,7 +244,7 @@ def main():
                          font="math", tight=True)
         if qa:
             fig.savefig(qa_dir / f"{name}{suffix}.png", dpi=130,
-                        facecolor="white", bbox_inches="tight",
+                        facecolor="#f3eeea", bbox_inches="tight",
                         pad_inches=0.05)
         plt.close(fig)
         print(name, "ok")

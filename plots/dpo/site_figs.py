@@ -12,7 +12,7 @@ point):
     fig-scalar-mono.svg   beta * sigmoid(beta * x), full + zoomed panel
     fig-loss-mono.svg     -log sigmoid(beta * x),   full + zoomed panel
 
-Pass --qa to also dump white-background PNG proofs to $QA_DIR or /tmp.
+Pass --qa to also dump paper-background PNG proofs to $QA_DIR or /tmp.
 """
 
 import os
@@ -81,7 +81,7 @@ def main():
     for name, fig in figs.items():
         sitefig.save_svg(fig, outdir / f"{name}.svg", font="math", tight=True)
         if qa:
-            fig.savefig(qa_dir / f"{name}.png", dpi=130, facecolor="white",
+            fig.savefig(qa_dir / f"{name}.png", dpi=130, facecolor="#f3eeea",
                         bbox_inches="tight", pad_inches=0.05)
         plt.close(fig)
         print(name, "ok")
